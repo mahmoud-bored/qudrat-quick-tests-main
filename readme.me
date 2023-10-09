@@ -1,0 +1,26 @@
+The poject consists of 2 logic js files, and 1 json data file which is stored on firebase
+the json file has a hard copy in the folder "outsiderHelpers" by the name testsBanks.json
+-- ./outsiderHelpers/testsBanks.json
+--- This file contains all of the data that's presented on the website, or at least most of it
+---- How is it structured?
+---- the data is seperated on 3 tests-banks each bank has its own tests inside of it
+---- each test on every bank has an unknown number of questions
+----- There are 2 Types of questions Short and Long ones
+------ Short questions consists of just a question and 4 answers and a correct answers
+------ Long questions are more complicated, each one consists of one paragraph and multiple questions, each questions has its own 4 answers and correct answers
+
+-- firebase.js > which is a module that contains the fetch functions and config for firebase
+--- The file is very simple
+--- it only exports 2 values that are fetched from firebase, the first one is every bank that's on the database, the second one is the banksInfo which is a document on the database that contains info on each bank like (id, name, numberOfTests)
+
+-- main.js > which has all the even listeners and necessary functions for the UI to work properly
+--- The most complicated file so far, what it does is basically everything in the whole project
+--- well, 3 basic functions,
+---- First one is the test customization which is all the necessary functions that are needed for the first object that appears on page load, it determines what banks and what tests are going to be presented one test starts
+---- Second one is the necessary functions that are needed for the test to work and it contains 3 basic functions
+------ One is injecting new question and provide each choice button with the question info to use it later on the Second functions
+------ Second function is fired only on clicking on a choice button and it takes the info that's provided inside the choice element to determine if the picked answer is correct or no and based on that it produces an object that consists of every question and its answer and has other variables to it like (the bank name the question is in, the test name the question was in, the question number, the answer provided by the user, the correct answer stored in the bank, the time consumed in solving the question), and when the number of questions is over or the test is ended it fires the Third function which displayes the test Results in the UI
+------ Third function is fired from inside the Second function which shows the test resuls it works like this: it takes the object which has every question position in the bank and fetches every question with its choices, the choosen choice, and the correct choice, it takes all of these variables and injecting them in the html DOM for the use to see
+
+=== Task 1: seperate every Basic function of the main.js file to 3 seperate files imported into eachOther
+=== Task 2: Convert the answers object from having 2 object inside of it ('correct', 'wrong') to having all the answers in one object with each one having a property inside the dectates if its wrong or correct 

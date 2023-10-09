@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="T1-style.css"> -->
+    <title>تناظر لفظي</title>
+</head>
+<body>
+    <div class="test-results-container">
+        <h2 class="test-results-title">
+            تقرير الإختبار
+        </h2>
+        <div class="check-cross-filter-header-container">
+            <div class="filter-header-container cross-filter-header-container">
+                <div class="filter-header cross-filter-header" data-value='cross'>
+                    <img src="./imgs/cross.png">
+                </div>
+            </div>
+            <div class="filter-header-container check-filter-header-container filter-header-container-disabled">
+                <div class="filter-header check-filter-header" data-value='check'>
+                    <img src="./imgs/check.png">
+                </div>
+            </div>
+        </div>
+        <div class="check-cross-filter-body-container">
+            <div class="check-filter-body filter-body filter-body-hide"></div>
+            <div class="cross-filter-body filter-body"></div>
+        </div>
+    </div>
+    <div class="test-options-container">
+        <div class="bank-customize-tab">
+            <!-- ADD FEATURE LATER, ID: 0 -->
+            <!--                          -->
+            <!-- <div class="test-check-all-container">
+                <div class="test-check-all">
+                    <div class="test-name">تحديد الكل</div>
+                    <div class="test-checker"></div>
+                </div>
+            </div> -->
+            <div class="test-check-container"></div>
+            <div class="test-check-submit-button">تم</div>
+        </div>
+        <div class="test-options">
+            <div class="test-options-title">
+                <h2>بنك اسئلة المحوسب لفظي</h2>
+                <div class="tests-ref">
+                    <p>>> أ/ إيهاب عبدالعظيم</p>
+                </div>
+                <h3>المصادر:</h3>
+            </div>
+            <div class="test-options-banks-container"></div>
+            <div class="test-options-questions-settings-container">
+                <h3>عدد الأسئلة:</h3>
+                <div class="questions-count-container">
+                    <div class="questions-count" data-value="10">10</div>
+                    <div class="questions-count" data-value="20">20</div>
+                    <div class="questions-count" data-value="30">30</div>
+                    <input class="questions-count-input" placeholder="تخصيص" value="5"></input>
+                </div>
+                <div class="questions-repeat-check">
+                    <div class="questions-repeat-checkbox questions-repeat-checkbox-checked"></div>
+                    <div class="questions-repeat-text">عدم تكرار الأسئلة</div>
+                </div>
+            </div>
+            <div class="test-start-button">ابدأ</div>
+        </div>
+    </div>
+    <main>
+        <div class="question-counter-container">
+            <span class="current-questions-count"></span>
+            /
+            <span class="total-questions-count"></span>
+        </div>
+        <div class="timer-container">
+            <h2></h2>
+        </div>
+        <div class="question-container">
+            <p class="question-head"></p>
+
+            <div class="question-answers-container">
+                <p class="question-answer question-answer-1">أ- <span></span></p>
+                <p class="question-answer question-answer-2">ب- <span></span></p>
+            </div>
+
+            <div class="question-answers-container">
+                <p class="question-answer question-answer-3">ج- <span></span></p>
+                <p class="question-answer question-answer-4">د- <span></span></p>
+            </div>
+
+            <div class="question-imgs-container">
+                <img src="./imgs/check.png" class="check-pick hide">
+                <img src="./imgs/cross.png" class="cross-pick hide">
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="question-paragraph-container">
+                <div class="question-paragraph">
+                    <img src="./imgs/lock.png">
+                </div>
+            </div>
+            <div class="choices-container">
+                <div class="choice" data-value="أ">أ</div>
+                <div class="choice" data-value="ب">ب</div>
+                <div class="choice" data-value="ج">ج</div>
+                <div class="choice" data-value="د">د</div>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>
