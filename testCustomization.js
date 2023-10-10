@@ -31,8 +31,10 @@ document.querySelectorAll('.bank-check-name').forEach(elmnt =>{
         // if empty: uncheck the bankContainer,
         //     else: check the bankContainer
         if(bankTestsArr.length == 0){
-            for(let testName in banks[bankName]){
-                bankTestsArr.push(testName)
+            for(const testName in banks[bankName]){
+                if(banks[bankName].hasOwnProperty(testName)){
+                    bankTestsArr.push(testName)
+                }
             }
         }else{
             activeTestsList[bankName] = []
@@ -50,10 +52,11 @@ document.querySelectorAll('.bank-check-name').forEach(elmnt =>{
 document.querySelectorAll('.bank-customize').forEach(elmnt => {
     elmnt.onclick = function(event){
         const bankName = event.target.getAttribute('data-value')
-        // Open Customization tab
-        document.querySelector('.bank-customize-tab').classList.add('bank-customize-tab-show')
         // Clean the customization tab
         document.querySelector('.test-check-container').innerHTML = ''
+        // Open Customization tab
+        document.querySelector('.bank-customize-tab').classList.add('bank-customize-tab-show')
+
         // Add tests to the customize tab
         for(let i = 1; i <= Object.keys(banks[bankName]).length; i++){
             document.querySelector('.test-check-container').innerHTML += `
@@ -65,9 +68,11 @@ document.querySelectorAll('.bank-customize').forEach(elmnt => {
         }
         // checks already exsits tests in the activeTestsList
         for(const testNameIndex in activeTestsList[bankName]){
-            const testName = activeTestsList[bankName][testNameIndex]
-            document.querySelector(`.test-check[data-value-bank='${bankName}'][data-value-test='${testName}']`).classList.add('test-check-checked')
-            document.querySelector(`.test-check[data-value-bank='${bankName}'][data-value-test='${testName}'] > .test-checker`).classList.add('test-checked')
+            if(activeTestsList[bankName].hasOwnProperty(testNameIndex)){
+                const testName = activeTestsList[bankName][testNameIndex]
+                document.querySelector(`.test-check[data-value-bank='${bankName}'][data-value-test='${testName}']`).classList.add('test-check-checked')
+                document.querySelector(`.test-check[data-value-bank='${bankName}'][data-value-test='${testName}'] > .test-checker`).classList.add('test-checked')
+            }
         }
         // test-checkers listeners
         document.querySelectorAll('.test-check').forEach(elmnt => {
