@@ -6,6 +6,8 @@ let activeTestsList = {}
 // add banks containers to the list
 const banksOptionsContainer = document.querySelector('.test-options-banks-container')
 for(const bankName in banksInfo){
+    // remove the loading animation
+    document.querySelector('.ring').classList.add('hide')
     // register banks in the active list
     activeTestsList[bankName] = []
     // add banks containers
@@ -96,37 +98,6 @@ document.querySelectorAll('.bank-customize').forEach(elmnt => {
                 e.target.classList.toggle('test-check-checked')
             }
         })
-
-        // ADD FEATURE LATER, ID: 0
-        //
-        //
-        // check-all button event listener
-        // document.querySelector('.test-check-all').onclick = () =>{
-        //     if(activeTestsList[bankName].length == 0){
-        //         for(const testName in banks[bankName]){
-        //             const testCheckElmnt = document.querySelector(`.test-check[data-value-bank='${bankName}'][data-value-test='${testName}']`)
-        //             activeTestsList[bankName].push(testName)
-        //             if(!testCheckElmnt.classList.contains('test-check-checked')){
-        //                 testCheckElmnt.classList.add('test-check-checked')
-        //             }
-        //             if(!testCheckElmnt.querySelector('.test-checker').classList.contains('test-checked')){
-        //                 testCheckElmnt.querySelector('.test-checker').classList.add('test-checked')
-        //             }
-        //         }
-        //     }else {
-        //         activeTestsList[bankName] = []
-        //         for(const testName in banks[bankName]){
-        //             const testCheckElmnt = document.querySelector(`.test-check[data-value-bank='${bankName}'][data-value-test='${testName}']`)
-        //             activeTestsList[bankName].push(testName)
-
-        //             try{ testCheckElmnt.classList.remove('test-check-checked')} catch(e) {}
-        //             try{ testCheckElmnt.querySelector('.test-checker').classList.remove('test-checked') } catch(e) {}
-                    
-        //             testCheckElmnt.classList.add('test-check-checked')
-        //             testCheckElmnt.querySelector('.test-checker').classList.add('test-checked')
-        //         }
-        //     }
-        // }
     }
 })
 
