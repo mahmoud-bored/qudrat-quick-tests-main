@@ -12,6 +12,9 @@ on:
   workflow_dispatch:
 
 jobs:
+  # permission for github Actions to write
+  permissions:
+    id-token: 'write'
   # Single deploy job since we're just deploying
   deploy:
     environment:
