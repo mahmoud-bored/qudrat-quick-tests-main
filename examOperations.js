@@ -16,6 +16,17 @@ Object.prototype.length = function(){
     return Object.keys(this).length
 }
 
+// Question and Answers Text Resize input Range
+const questionTextResizeInput = document.querySelector('.question-text-resize-input')
+questionTextResizeInput.oninput = () => {
+    document.querySelector('.question-container').style.fontSize = `${questionTextResizeInput.value / 100 + 0.8}em`
+}
+// Paragraph Text Resize input Range
+const paragraphTextResizeInput = document.querySelector('.question-paragraph-resize-input')
+paragraphTextResizeInput.oninput = () => {
+    document.querySelector('.question-paragraph-container').style.fontSize = `${paragraphTextResizeInput.value / 100 + 0.8}em`
+}
+
 const currentQuestionsCounterElmnt = document.querySelector('.current-questions-count')
 const totalQuestionsCounterElmnt = document.querySelector('.total-questions-count')
 const testOptionsContainer = document.querySelector('.test-options-container')
