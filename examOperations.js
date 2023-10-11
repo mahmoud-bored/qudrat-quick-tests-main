@@ -199,7 +199,7 @@ function injectQuestion(injectedObj){
         i++
     })
 }
-const timerElmnt = document.querySelector('.timer-container > h2')
+const timerElmnt = document.querySelector('.timer')
 let timer
 let positiveTimer = 0
 function startTimer(duration){
@@ -207,9 +207,17 @@ function startTimer(duration){
     positiveTimer = 0
     timerElmnt.textContent = time
     timer = setInterval(()=>{
+        if(time >= 20){
+            timerElmnt.style.color = 'rgb(23, 130, 25)'
+        }else if(time >= 10){
+            timerElmnt.style.color = 'rgb(240, 171, 8)'
+        }else if(time < 10){
+            timerElmnt.style.color = 'rgb(238, 28, 18)'
+        }
         time--
         positiveTimer++
         timerElmnt.textContent = time
+        // Set Timer Color
     }, 1000)
 }
 
