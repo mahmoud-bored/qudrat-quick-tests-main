@@ -1,15 +1,19 @@
 html
     body
         main
+            display: flex
+            flex-direction: column
+            justify-content: space-between
             width: 100%
             height: 100%
             .question-text-resize-input
                 position: absolute
                 top: 20px
                 left: 30px
+                width: 25%
             .question-counter-container
                 height: 60px
-                width: 120px
+                width: 25%
                 position: absolute
                 top: 10px
                 right: 10px
@@ -42,11 +46,12 @@ html
                 display: flex
                 align-items: flex-start
                 flex-direction: column
-                height: 30%
+                height: 25%
                 margin-top: 20px
                 font-size: 1.6em
                 width: 90%
                 direction: rtl
+                overflow-y: auto
                 .question-head
                     margin-bottom: 20px
                 .question-answers-container
@@ -79,7 +84,7 @@ html
                     
                 
             .bottom-container
-                height: 50vh
+                height: 40%
                 width: 100%
                 display: flex
                 align-items: center
@@ -103,7 +108,7 @@ html
                         justify-content: center
                         align-items: center
                         margin-left: 10px
-                        overflow-y: scroll
+                        overflow-y: auto
                         .question-paragraph
                             width: 90%
                             height: 90%
@@ -145,3 +150,49 @@ html
                                 background-color: #5eee25
                                 color: #fff
                 
+            .general-test-controls
+                display: flex
+                justify-content: space-evenly
+                align-items: center
+                width: 100%
+                height: 60px
+                .test-end-button-container
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 100%
+                    height: 80%
+                    .test-end-button
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        width: 95%
+                        height: 100%
+                        border-radius: 5px
+                        background-color: #dc3545
+                        color: #fff
+                        cursor: pointer
+                        user-select: none
+                .test-skip-question-container
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 30%
+                    height: 80%
+                    .skip-question-button
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        width: 70%
+                        height: 100%
+                        color: #0d6efd
+                        border: 1px solid #0d6efd
+                        border-radius: 5px
+                        cursor: pointer
+                        user-select: none
+                        background-color: #fff
+                        transition: background-color 0.2s ease, color 0.2s ease
+                        @media (hover : hover )
+                            &:hover
+                                color: #fff
+                                background-color: #0d6efd

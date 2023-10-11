@@ -67,26 +67,41 @@ let maxRepetitions
 let subQuestionsCounter = undefined
 let questionCounter = 0
 function generateRandomQuestion() {
-    questionCounter++
-    // Refresh Question Counter
-    currentQuestionsCounterElmnt.textContent = questionCounter
-    // Turn Counter to Red When its being Held
-    if(questionCounter > testQuestionsAmount){currentQuestionsCounterElmnt.style.color = '#ba1818'}
-    // Check if there's any Pending Long questions
-    if(subQuestionsCounter == undefined){
-        const randomBank = activeTestsList.random()
-        const randomTest = activeTestsList[randomBank].random()
-        const randomQuestionNumber = banks[randomBank][randomTest]['questions'].random()
-        console.log(randomBank, randomTest)
-        questionLocation = {
-            bankName: randomBank,
-            testName: randomTest,
-            questionNumber: randomQuestionNumber,
+    function generate(){
+        // Generate New Question
+        questionCounter++
+        // Refresh Question Counter
+        currentQuestionsCounterElmnt.textContent = questionCounter
+        // Turn Counter to Red When its being Held
+        if(questionCounter > testQuestionsAmount){currentQuestionsCounterElmnt.style.color = '#ba1818'}
+        // Check if there's any Pending Long questions
+        if(subQuestionsCounter == undefined){
+            const randomBank = activeTestsList.random()
+            const randomTest = activeTestsList[randomBank].random()
+            const randomQuestionNumber = banks[randomBank][randomTest]['questions'].random()
+            questionLocation = {
+                bankName: randomBank,
+                testName: randomTest,
+                questionNumber: randomQuestionNumber,
+            }
         }
+    
+        fetchQuestion(questionLocation)
+        startTimer(30)
     }
 
-    fetchQuestion(questionLocation)
-    startTimer(30)
+    // Check if Exam Ended
+    if(questionCounter < testQuestionsAmount){
+        generate()
+        queue = false
+    }else{
+        if(holdEnd){
+            generate()
+        }else{
+            // End Exam
+            end()
+        }
+    }
 }
 
 let holdEnd = false
@@ -162,9 +177,20 @@ function injectQuestion(injectedObj){
         }
     }
     questionHeadElmnt.innerHTML = question
+    // Inject question Info into Choices
     let i = 0
     document.querySelectorAll('.choice').forEach((elmnt) => {
         elmnt.setAttribute('data-value', answers[i])
+        elmnt.setAttribute('data-type', injectedObj['questionType'])
+        elmnt.setAttribute('data-bank', injectedObj['bankName'])
+        elmnt.setAttribute('data-test', injectedObj['testName'])
+        elmnt.setAttribute('data-question', injectedObj['questionNumber'])
+        if(isLong){elmnt.setAttribute('data-sub-question', injectedObj['subQuestionNumber'])}
+        i++
+    })
+    // Inject question Info into Skip button
+    i = 0
+    document.querySelectorAll('.skip-question-button').forEach((elmnt) => {
         elmnt.setAttribute('data-type', injectedObj['questionType'])
         elmnt.setAttribute('data-bank', injectedObj['bankName'])
         elmnt.setAttribute('data-test', injectedObj['testName'])
@@ -178,7 +204,7 @@ let timer
 let positiveTimer = 0
 function startTimer(duration){
     let time = duration
-    
+    positiveTimer = 0
     timerElmnt.textContent = time
     timer = setInterval(()=>{
         time--
@@ -269,26 +295,45 @@ function choicePick(event) {
             })
 
         }, 500)
-
-        // Check if Exam Ended
-        setTimeout(()=>{
-            if(questionCounter < testQuestionsAmount){
-                // Generate New Question
-                generateRandomQuestion()
-                queue = false
-            }else{
-                // check if the Exam End is being held by a long question
-                if(holdEnd){
-                    generateRandomQuestion()
-                    queue = false
-                }else{
-                    // Show Exam Results
-                    end()
-                }
-            }
-        }, 450)
+        setTimeout(() => {
+            generateRandomQuestion()
+        }, 450);
     }
     
 }
 document.querySelectorAll('.choice').forEach((elmnt)=>{ elmnt.onclick = choicePick })
+// Skip Question Button
+document.querySelector('.skip-question-button').onclick = (event) => {
+    const pick = undefined
+    const bankName = event.target.getAttribute('data-bank')
+    const testName = event.target.getAttribute('data-test')
+    const questionType = event.target.getAttribute('data-type')
+    const questionNumber = event.target.getAttribute('data-question')
+    const subQuestionNumber = event.target.getAttribute('data-sub-question')
+    const isAnswerCorrect = false
+    // Get Correct Answer
+    let correctAnswer
+    if(questionType == 'long'){
+        correctAnswer = banks[bankName][testName]['questions'][questionNumber]['questions'][subQuestionNumber]['correctAnswer']
+    }else{
+        correctAnswer = banks[bankName][testName]['questions'][questionNumber]['correctAnswer']
+    }
+    // Reset Timer
+    clearInterval(timer)
+    // Record Answer
+    questionRecord[questionCounter] = {
+        // Question Info
+        isAnswerCorrect: isAnswerCorrect,
+        questionCounter: questionCounter,
+        questionType: questionType,
+        bankName: bankName,
+        testName: testName,
+        questionNumber: questionNumber,
+        subQuestionNumber: subQuestionNumber,
+        correctAnswer: correctAnswer,
+        answer: pick,
+        duration: positiveTimer,
+    }
+    generateRandomQuestion()
+}
 export { startTest, questionRecord }
