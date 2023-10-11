@@ -40,7 +40,7 @@ function end(){
             // == Result Body Container
             // ==== Result Question Container
             // ==== Result Choices Container
-
+            // ==== Result Location Container
 
             // Create Result Container
             const resultContainer = document.createElement('div')
@@ -113,19 +113,17 @@ function end(){
                         }
                         
                     }
-
                     resultBodyContainer.appendChild(resultChoicesContainer)
+
+                    // Result Location Container
+                    const resultLocationContainer = document.createElement('div')
+                    resultLocationContainer.setAttribute('class', 'result-location-container')
+                    resultLocationContainer.innerHTML = `
+                        <div class='result-location result-bank-location'>${banksInfo[questionObj.bankName]['name']}</div>
+                        <div class='result-location result-test-location'>${banks[questionObj.bankName][questionObj.testName]['info']['name']}</div>
+                    `
+                    resultBodyContainer.appendChild(resultLocationContainer)                    
                 resultContainer.appendChild(resultBodyContainer)
-
-
-                // Color out Correct and Wrong Choices
-                // document.querySelectorAll('.result-choice').forEach((elmnt)=>{
-                //     const choiceAnswer = elmnt.getAttribute('data-value')
-                //     console.log(choiceAnswer, questionObj.answer, questionObj.correctAnswer)
-                //     if(choiceAnswer == questionObj.answer){ elmnt.style.backgroundColor = '#f74354'; console.log('wrong') }
-                //     else if(choiceAnswer == questionObj.correctAnswer){ elmnt.style.backgroundColor = '#52d81d'; ; console.log('correct') }
-                // })
-
 
                 
             // Inject question into its page

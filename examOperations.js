@@ -92,14 +92,14 @@ function generateRandomQuestion() {
 
     // Check if Exam Ended
     if(questionCounter < testQuestionsAmount){
-        generate()
         queue = false
+        return generate()
     }else{
         if(holdEnd){
-            generate()
+            return generate()
         }else{
             // End Exam
-            end()
+            return end()
         }
     }
 }
