@@ -41,24 +41,25 @@ html
                 .filter-header-container-disabled
                     opacity: 0.6
             .check-cross-filter-body-container
-                height: 100%
+                height: calc(100% - 130px)
                 width: 100%
                 position: absolute
                 top: 130px
+                padding-top: 30px
                 background-color: #e4e4e4
                 border-top-left-radius: 15px
                 border-top-right-radius: 15px
                 display: flex
                 justify-content: center
+                overflow: auto
                 .filter-body
-                    height: inherit
+                    height: calc(100% - 30px)
                     width: 100%
                     position: absolute
                     display: flex
                     align-items: center
                     flex-direction: column
                     gap: 20px
-                    top: 30px
                     background-color: #e4e4e4
                     .result-answer-container
                         position: relative
