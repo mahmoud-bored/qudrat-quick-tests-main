@@ -207,6 +207,7 @@ function startTimer(duration){
     positiveTimer = 0
     timerElmnt.textContent = time
     timer = setInterval(()=>{
+        // Set Timer Color
         if(time >= 20){
             timerElmnt.style.color = 'rgb(23, 130, 25)'
         }else if(time >= 10){
@@ -216,8 +217,12 @@ function startTimer(duration){
         }
         time--
         positiveTimer++
-        timerElmnt.textContent = time
-        // Set Timer Color
+        // Stop Timer when it hits 0
+        if(time < 0){
+            timerElmnt.textContent = '0'
+        }else{
+            timerElmnt.textContent = time
+        }
     }, 1000)
 }
 
