@@ -11,8 +11,22 @@ html
             background-color: #ffffff
             position: absolute
             z-index: 2
-            .test-results-title
-                height: 30px
+            .test-results-title-container
+                display: flex
+                justify-content: space-evenly
+                align-items: center
+                margin-inline: auto
+                background-color: #d4c299
+                height: 50px
+                width: 180px
+                border-radius: 10px
+                p
+                    font-size: 1.2em
+                    font-weight: 600
+                    color: #78685b
+                    margin-top: 7px
+                img
+                    height: 45px
             .check-cross-filter-header-container
                 display: flex
                 justify-content: center
@@ -24,7 +38,6 @@ html
                     height: 60px
                     width: 40%
                     cursor: pointer
-
                     .filter-header
                         width: 50%
                         height: 100%
@@ -41,10 +54,10 @@ html
                 .filter-header-container-disabled
                     opacity: 0.6
             .check-cross-filter-body-container
-                height: calc(100% - 130px)
+                height: calc(100% - 150px)
                 width: 100%
                 position: absolute
-                top: 130px
+                top: 150px
                 padding-top: 30px
                 background-color: #e4e4e4
                 border-top-left-radius: 15px

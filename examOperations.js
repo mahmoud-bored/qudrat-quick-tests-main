@@ -201,7 +201,7 @@ function injectQuestion(injectedObj){
         i++
     })
 }
-const timerElmnt = document.querySelector('.timer')
+const timerElmnt = document.querySelector('.timer > p')
 let timer
 let positiveTimer = 0
 function startTimer(duration){

@@ -7,28 +7,6 @@
     <title>اختبارات لفظي</title>
 </head>
 <body>
-    <!-- Exam Results -->
-    <div class="test-results-container">
-        <h2 class="test-results-title">
-            تقرير الإختبار
-        </h2>
-        <div class="check-cross-filter-header-container">
-            <div class="filter-header-container cross-filter-header-container">
-                <div class="filter-header cross-filter-header" data-value='cross'>
-                    <img src="./imgs/cross.png">
-                </div>
-            </div>
-            <div class="filter-header-container check-filter-header-container filter-header-container-disabled">
-                <div class="filter-header check-filter-header" data-value='check'>
-                    <img src="./imgs/check.png">
-                </div>
-            </div>
-        </div>
-        <div class="check-cross-filter-body-container">
-            <div class="check-filter-body filter-body filter-body-hide"></div>
-            <div class="cross-filter-body filter-body"></div>
-        </div>
-    </div>
     <!-- Exam Customization -->
     <div class="test-options-container">
         <div class="bank-customize-tab">
@@ -77,7 +55,10 @@
     <main>
         <div class="exam-info-header">
             <div class="question-counter-container"> <span class="current-questions-count"></span>/<span class="total-questions-count"></span> </div>
-            <div class="timer"></div>
+            <div class="timer">
+                <img src="./public/imgs/Personal-Logo-1.png">
+                <p></p>
+            </div>
             <div class="question-text-resize-input-container">
                 <input type="range" value="50" class="question-text-resize-input">
             </div>
@@ -127,6 +108,30 @@
             </div>
         </footer>
     </main>
+    <!-- Exam Results -->
+    <div class="test-results-container">
+        <div class="test-results-title-container">
+            <p>تقرير الإختبار</p>
+            <img src="./public/imgs/Personal-Logo-1.png">
+        </div>
+        <div class="check-cross-filter-header-container">
+            <div class="filter-header-container cross-filter-header-container">
+                <div class="filter-header cross-filter-header" data-value='cross'>
+                    <img src="./imgs/cross.png">
+                </div>
+            </div>
+            <div class="filter-header-container check-filter-header-container filter-header-container-disabled">
+                <div class="filter-header check-filter-header" data-value='check'>
+                    <img src="./imgs/check.png">
+                </div>
+            </div>
+        </div>
+        <div class="check-cross-filter-body-container">
+            <div class="check-filter-body filter-body filter-body-hide"></div>
+            <div class="cross-filter-body filter-body"></div>
+        </div>
+    </div>
+    
     <script src="./main.js" type="module"></script>
 </body>
 </html>
