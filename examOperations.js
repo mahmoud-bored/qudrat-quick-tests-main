@@ -174,6 +174,8 @@ function injectQuestion(injectedObj){
     for (let i = 0; i < 4; i++) {
         if(answers[i]){
             document.querySelector(`.question-answer-${i + 1} > span`).innerHTML = answers[i]
+        }else{
+            document.querySelector(`.question-answer-${i + 1} > span`).innerHTML = " "
         }
     }
     questionHeadElmnt.innerHTML = question
