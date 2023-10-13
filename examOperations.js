@@ -211,7 +211,7 @@ let positiveTimer = 0
 //   but if you remove it from the DOM and add it again you won't have that problem
 function startTimer(duration){
     // Remove Timer Elmnt from the DOM
-    timerElmntContainer.innerHTML = '<img src="./public/imgs/Personal-Logo-1.png">'
+    timerElmntContainer.innerHTML = '<img src="./imgs/Personal-Logo-1.png">'
     // Create New Timer Elmnt
     const newTimerElmnt = document.createElement('p')
     timerElmntContainer.appendChild(newTimerElmnt)
