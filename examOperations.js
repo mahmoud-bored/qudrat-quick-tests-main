@@ -202,28 +202,39 @@ function injectQuestion(injectedObj){
     })
 }
 const timerElmnt = document.querySelector('.timer > p')
+const timerElmntContainer = document.querySelector('.timer')
 let timer
 let positiveTimer = 0
+
+// We're removing the timer Elmnt because if you reset the timer to 30 it will activate the animation class
+//   on css and its gonna take time to reset back to the original color, 
+//   but if you remove it from the DOM and add it again you won't have that problem
 function startTimer(duration){
+    // Remove Timer Elmnt from the DOM
+    timerElmntContainer.innerHTML = '<img src="./public/imgs/Personal-Logo-1.png">'
+    // Create New Timer Elmnt
+    const newTimerElmnt = document.createElement('p')
+    timerElmntContainer.appendChild(newTimerElmnt)
+    // Injecting Time
     let time = duration
     positiveTimer = 0
-    timerElmnt.textContent = time
+    newTimerElmnt.textContent = time
     timer = setInterval(()=>{
         // Set Timer Color
         if(time >= 20){
-            timerElmnt.style.color = 'rgb(23, 130, 25)'
+            newTimerElmnt.style.color = 'rgb(23, 130, 25)'
         }else if(time >= 10){
-            timerElmnt.style.color = 'rgb(240, 171, 8)'
+            newTimerElmnt.style.color = 'rgb(240, 171, 8)'
         }else if(time < 10){
-            timerElmnt.style.color = 'rgb(238, 28, 18)'
+            newTimerElmnt.style.color = 'rgb(238, 28, 18)'
         }
         time--
         positiveTimer++
         // Stop Timer when it hits 0
         if(time < 0){
-            timerElmnt.textContent = '0'
+            newTimerElmnt.textContent = '0'
         }else{
-            timerElmnt.textContent = time
+            newTimerElmnt.textContent = time
         }
     }, 1000)
 }
@@ -234,6 +245,7 @@ let questionRecord = {}
 
 let queue = false
 function choicePick(event) {
+    console.log('choice picked')
     // Get Elements
     const checkElmnt = document.querySelector('.check-pick')
     const crossElmnt = document.querySelector('.cross-pick')
