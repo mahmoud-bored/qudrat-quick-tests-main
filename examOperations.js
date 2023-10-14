@@ -4,6 +4,8 @@ import { activeTestsList, repeatQuestions } from './testCustomization'
 import { end } from './testResults.js'
 
 const banks = banksCollection
+let questionRecord = {}
+
 // Create new function in Array.prototype to return random item from array
 Array.prototype.random = function () {
     return this[Math.floor((Math.random()*this.length))];
@@ -31,27 +33,57 @@ const currentQuestionsCounterElmnt = document.querySelector('.current-questions-
 const totalQuestionsCounterElmnt = document.querySelector('.total-questions-count')
 const testOptionsContainer = document.querySelector('.test-options-container')
 const testQuestionsAmountInput = document.querySelector('.questions-count-input')
+// Get and Update test questions amount
 let testQuestionsAmount = testQuestionsAmountInput.value
 testQuestionsAmountInput.onchange = ()=>{testQuestionsAmount = testQuestionsAmountInput.value}
+
 function startTest() {
     // Clean up empty active banks
     for(const bank in activeTestsList){
-        if(activeTestsList[bank].length == 0){
-            delete activeTestsList[bank]
-        }
-    }
-    // Calculate Max allowed questions
-    let testQuestionsMaxAmount = 0
-    for(const bank in activeTestsList){
-        for (let i = 0; i < activeTestsList[bank].length; i++) {
-            const testName = activeTestsList[bank][i];
-            if(typeof(banks[bank][testName]) == 'object'){
-                testQuestionsMaxAmount += banks[bank][testName]['questions'].length()
+        if(activeTestsList.hasOwnProperty(bank)){
+            if(activeTestsList[bank].length() == 0){
+                delete activeTestsList[bank]
             }
         }
     }
+    // Add Questions to Active Bank Tests
+    for(const bank in activeTestsList){
+        if(activeTestsList.hasOwnProperty(bank)){
+            for(const test in activeTestsList[bank]){
+                if(activeTestsList[bank].hasOwnProperty(test)){
+                    for(const question in banks[bank][test]['questions']){
+                        if(banks[bank][test]['questions'].hasOwnProperty(question)){
+                            activeTestsList[bank][test]['questions'][question] = banks[bank][test]['questions'][question]
+                        }
+                    }
+                }
+            }
+        }
+    }
+    console.log(activeTestsList)
+    // Calculate Max allowed questions
+    let testQuestionsMaxAmount = 0
+    for(const bank in activeTestsList){
+        if(activeTestsList.hasOwnProperty(bank)){
+            for (const test in activeTestsList[bank]) {
+                if(activeTestsList[bank].hasOwnProperty(test)){
+                    for(const question in activeTestsList[bank][test]['questions']){
+                        if(activeTestsList[bank][test]['questions'].hasOwnProperty(question)){
+                            if(activeTestsList[bank][test]['questions'][question]['questionType'] == 'long'){
+                                testQuestionsMaxAmount += activeTestsList[bank][test]['questions'][question]['questions'].length()
+                            }else {
+                                testQuestionsMaxAmount += activeTestsList[bank][test]['questions'].length()
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Set questions count to the max allowed number if it was higher than that
     if(!repeatQuestions && testQuestionsAmount > testQuestionsMaxAmount){
-        testQuestionsAmount == testQuestionsMaxAmount
+        testQuestionsAmount = testQuestionsMaxAmount
     }
     // Set Total Questions Counter
     totalQuestionsCounterElmnt.textContent = testQuestionsAmount
@@ -61,42 +93,54 @@ function startTest() {
     generateRandomQuestion()
 }
 
-
+let firstLoad = true
 let questionLocation = {}
 let maxRepetitions
 let subQuestionsCounter = undefined
 let questionCounter = 0
 function generateRandomQuestion() {
     function generate(){
-        // Generate New Question
-        questionCounter++
-        // Refresh Question Counter
-        currentQuestionsCounterElmnt.textContent = questionCounter
-        // Turn Counter to Red When its being Held
-        if(questionCounter > testQuestionsAmount){currentQuestionsCounterElmnt.style.color = '#ba1818'}
-        // Check if there's any Pending Long questions
-        if(subQuestionsCounter == undefined){
+        function randomize(){
             const randomBank = activeTestsList.random()
             const randomTest = activeTestsList[randomBank].random()
-            const randomQuestionNumber = banks[randomBank][randomTest]['questions'].random()
+            const randomQuestionNumber = activeTestsList[randomBank][randomTest]['questions'].random()
             questionLocation = {
                 bankName: randomBank,
                 testName: randomTest,
                 questionNumber: randomQuestionNumber,
             }
         }
-    
+        questionCounter++
+        // Refresh Question Counter
+        currentQuestionsCounterElmnt.textContent = questionCounter
+        // Turn Counter to Red When its being Held OverCounter
+        if(questionCounter > testQuestionsAmount){ currentQuestionsCounterElmnt.style.color = '#ba1818' }
+        // Check if there's any Pending Long questions
+        if(subQuestionsCounter == undefined){ randomize() }
+        // Inject Question Location and Start Timer
         fetchQuestion(questionLocation)
         startTimer(30)
     }
 
+
     // Check if Exam Ended
-    if(questionCounter < testQuestionsAmount){
-        queue = false
-        return generate()
-    }else{
-        if(holdEnd){
+    if(questionCounter <= testQuestionsAmount){
+        // Load Instantly if its the first question in the exam
+        if(firstLoad){
+            firstLoad = false
+            queue = false
             return generate()
+        }else{
+            setTimeout(() => {
+                queue = false
+                return generate()
+            }, 450);
+        }
+    }else{
+        if(longQuestionInProgress){
+            setTimeout(() => {
+                return generate()
+            }, 450);
         }else{
             // End Exam
             return end()
@@ -104,12 +148,12 @@ function generateRandomQuestion() {
     }
 }
 
-let holdEnd = false
+let longQuestionInProgress = false
 function fetchQuestion(questionLocationObj){
     const bankName = questionLocationObj['bankName']
     const testName = questionLocationObj['testName']
     const questionNumber = questionLocationObj['questionNumber']
-    const questionType = banks[bankName][testName]['questions'][questionNumber]['questionType']
+    const questionType = activeTestsList[bankName][testName]['questions'][questionNumber]['questionType']
     questionLocationObj.questionType = questionType
     
     // Check if there's any Pending Long questions
@@ -119,7 +163,7 @@ function fetchQuestion(questionLocationObj){
         // Cancel the subQuestionsCounter when the Long questions ends
         if(!(subQuestionsCounter < (maxRepetitions - 1))){
             subQuestionsCounter = undefined
-            holdEnd = false
+            longQuestionInProgress = false
         }
     }else{
         // if New question is 'long' set the maxRepetitions and start the subQuestionsCounter
@@ -128,18 +172,17 @@ function fetchQuestion(questionLocationObj){
             subQuestionsCounter = 0
             questionLocationObj.subQuestionNumber = subQuestionsCounter
             // Hold Exam End untill long question ends
-            holdEnd = true
+            longQuestionInProgress = true
         }
     }
 
     injectQuestion(questionLocationObj)
     if(!subQuestionsCounter < maxRepetitions){
+        // Prevent from Adding to an undefined variable
         if(typeof(subQuestionsCounter) == 'number'){
             subQuestionsCounter++
         }
     }
-
-
 
 }
 function injectQuestion(injectedObj){
@@ -157,18 +200,18 @@ function injectQuestion(injectedObj){
     // If injected question is "long", inject questionParagraph
     if(isLong){
         // Inject Paragraph
-        questionParagraphElmnt.innerHTML = banks[bankName][testName]['questions'][questionNumber]['questionParagraph']
+        questionParagraphElmnt.innerHTML = activeTestsList[bankName][testName]['questions'][questionNumber]['questionParagraph']
         
         // Get Question and Answers Locations (Long)
-        question = banks[bankName][testName]['questions'][questionNumber]['questions'][subQuestionNumber]['question']
-        answers = banks[bankName][testName]['questions'][questionNumber]['questions'][subQuestionNumber]['answers']
+        question = activeTestsList[bankName][testName]['questions'][questionNumber]['questions'][subQuestionNumber]['question']
+        answers = activeTestsList[bankName][testName]['questions'][questionNumber]['questions'][subQuestionNumber]['answers']
     }else{
         // Inject Paragraph Lock Img
         questionParagraphElmnt.innerHTML = '<div class="question-paragraph-img-container"><img src="./imgs/lock.png"></div>'
         
         // Get Question and Answers Locations (Normal)
-        question = banks[bankName][testName]['questions'][questionNumber]['question']
-        answers = banks[bankName][testName]['questions'][questionNumber]['answers']
+        question = activeTestsList[bankName][testName]['questions'][questionNumber]['question']
+        answers = activeTestsList[bankName][testName]['questions'][questionNumber]['answers']
     }
     // Inject Questions
     for (let i = 0; i < 4; i++) {
@@ -201,7 +244,6 @@ function injectQuestion(injectedObj){
         i++
     })
 }
-const timerElmnt = document.querySelector('.timer > p')
 const timerElmntContainer = document.querySelector('.timer')
 let timer
 let positiveTimer = 0
@@ -239,13 +281,16 @@ function startTimer(duration){
     }, 1000)
 }
 
-
-let questionRecord = {}
+function preventRepeat(questionLocation){
+    if(!repeatQuestions && (subQuestionsCounter == undefined)){
+        delete activeTestsList[questionLocation.bankName][questionLocation.testName]['questions'][questionLocation.questionNumber]
+        console.log(activeTestsList[questionLocation['bankName']][questionLocation['testName']]['questions'])
+    }
+}
 
 
 let queue = false
 function choicePick(event) {
-    console.log('choice picked')
     // Get Elements
     const checkElmnt = document.querySelector('.check-pick')
     const crossElmnt = document.querySelector('.cross-pick')
@@ -259,7 +304,7 @@ function choicePick(event) {
     const questionNumber = event.target.getAttribute('data-question')
     const subQuestionNumber = event.target.getAttribute('data-sub-question')
 
-    
+    console.log(bankName, testName, questionNumber)    
     let correctAnswer
     if(questionType == 'long'){
         correctAnswer = banks[bankName][testName]['questions'][questionNumber]['questions'][subQuestionNumber]['correctAnswer']
@@ -322,9 +367,8 @@ function choicePick(event) {
             })
 
         }, 500)
-        setTimeout(() => {
-            generateRandomQuestion()
-        }, 450);
+        preventRepeat(questionLocation)
+        generateRandomQuestion()
     }
     
 }
@@ -361,6 +405,7 @@ document.querySelector('.skip-question-button').onclick = (event) => {
         answer: pick,
         duration: positiveTimer,
     }
+    preventRepeat(questionLocation)
     generateRandomQuestion()
 }
 export { startTest, questionRecord }
