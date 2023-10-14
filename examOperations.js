@@ -60,19 +60,22 @@ function startTest() {
             }
         }
     }
-    console.log(activeTestsList)
     // Calculate Max allowed questions
     let testQuestionsMaxAmount = 0
+    // Loop through Banks in activeTestsList
     for(const bank in activeTestsList){
         if(activeTestsList.hasOwnProperty(bank)){
+            // Loop through tests in activeTestsList banks
             for (const test in activeTestsList[bank]) {
                 if(activeTestsList[bank].hasOwnProperty(test)){
+                    // Loop through questions in activeTestsList Banks's Tests
                     for(const question in activeTestsList[bank][test]['questions']){
                         if(activeTestsList[bank][test]['questions'].hasOwnProperty(question)){
+                            // Check if it's a long or short question and fetch the long question's length, short questions are only counted as one
                             if(activeTestsList[bank][test]['questions'][question]['questionType'] == 'long'){
                                 testQuestionsMaxAmount += activeTestsList[bank][test]['questions'][question]['questions'].length()
                             }else {
-                                testQuestionsMaxAmount += activeTestsList[bank][test]['questions'].length()
+                                testQuestionsMaxAmount++
                             }
 
                         }
@@ -284,7 +287,6 @@ function startTimer(duration){
 function preventRepeat(questionLocation){
     if(!repeatQuestions && (subQuestionsCounter == undefined)){
         delete activeTestsList[questionLocation.bankName][questionLocation.testName]['questions'][questionLocation.questionNumber]
-        console.log(activeTestsList[questionLocation['bankName']][questionLocation['testName']]['questions'])
     }
 }
 
@@ -304,7 +306,6 @@ function choicePick(event) {
     const questionNumber = event.target.getAttribute('data-question')
     const subQuestionNumber = event.target.getAttribute('data-sub-question')
 
-    console.log(bankName, testName, questionNumber)    
     let correctAnswer
     if(questionType == 'long'){
         correctAnswer = banks[bankName][testName]['questions'][questionNumber]['questions'][subQuestionNumber]['correctAnswer']

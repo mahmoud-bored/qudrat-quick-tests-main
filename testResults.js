@@ -159,7 +159,6 @@ document.querySelectorAll('.filter-header').forEach((elmnt) => { elmnt.onclick =
 
 function toggleAnswer(event) {
     const elmnt = event.target.nextSibling
-    console.log(elmnt)
     if(!elmnt.classList.contains('result-answer-container-open')){
         elmnt.classList.toggle('result-answer-container-show')
         setTimeout(()=>{ elmnt.classList.toggle('result-answer-container-open') }, 50)
