@@ -52,7 +52,7 @@
         </div>
     </div>
     <!-- Exam Operations-->
-    <main>
+    <main style="background-image: url('./public/imgs/background.png');background-repeat: none; background-size: cover">
         <div class="exam-info-header">
             <div class="question-counter-container"> <span class="current-questions-count"></span>/<span class="total-questions-count"></span> </div>
             <div class="timer">
@@ -61,6 +61,14 @@
             </div>
             <div class="question-text-resize-input-container">
                 <input type="range" value="50" class="question-text-resize-input">
+            </div>
+            <div class="answer-align-container">
+                <div class="answer-align-button" data-value="row">
+                    <img src="./public/imgs/stacked-beside-img.png">
+                </div>
+                <div class="answer-align-button" data-value="column">
+                    <img src="./public/imgs/stacked-under-img.png">
+                </div>
             </div>
         </div>
 
@@ -71,7 +79,6 @@
                 <p class="question-answer question-answer-1">أ- <span></span></p>
                 <p class="question-answer question-answer-2">ب- <span></span></p>
             </div>
-
             <div class="question-answers-container">
                 <p class="question-answer question-answer-3">ج- <span></span></p>
                 <p class="question-answer question-answer-4">د- <span></span></p>

@@ -1,4 +1,3 @@
-import './examOperations.sass'
 import { banksCollection } from "./firebase";
 import { activeTestsList, repeatQuestions } from './testCustomization'
 import { end } from './testResults.js'
@@ -18,6 +17,9 @@ Object.prototype.length = function(){
     return Object.keys(this).length
 }
 
+
+
+
 // Question and Answers Text Resize input Range
 const questionTextResizeInput = document.querySelector('.question-text-resize-input')
 questionTextResizeInput.oninput = () => {
@@ -28,6 +30,21 @@ const paragraphTextResizeInput = document.querySelector('.question-paragraph-res
 paragraphTextResizeInput.oninput = () => {
     document.querySelector('.question-paragraph-container').style.fontSize = `${paragraphTextResizeInput.value / 100 + 0.8}em`
 }
+// qustion answers Alignment
+const answerAlignButton = document.querySelectorAll('.answer-align-button')
+const answersContainers = document.querySelectorAll('.question-answers-container')
+answerAlignButton.forEach((elmnt) => {
+    elmnt.onclick = (e) => {
+        const alignmentValue = e.target.getAttribute('data-value')
+        console.log(alignmentValue)
+        answersContainers.forEach((container) => {
+            container.style.flexDirection = alignmentValue
+        })
+    }
+})
+
+
+
 
 const currentQuestionsCounterElmnt = document.querySelector('.current-questions-count')
 const totalQuestionsCounterElmnt = document.querySelector('.total-questions-count')
@@ -91,8 +108,10 @@ function startTest() {
     // Set Total Questions Counter
     totalQuestionsCounterElmnt.textContent = testQuestionsAmount
 
-    // Hide Test Options and Start the Exam
+    // Hide Test Options and Show the Exam
     testOptionsContainer.style.display = 'none'
+    document.querySelector('main').style.display = 'flex'
+    // Generate Question
     generateRandomQuestion()
 }
 

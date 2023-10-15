@@ -1,4 +1,8 @@
 import './style.sass'
+import './testCustomization.sass'
+import './examOperations.sass'
+import './testResults.sass'
+
 import { startTest } from './examOperations.js'
 import { end } from './testResults'
 

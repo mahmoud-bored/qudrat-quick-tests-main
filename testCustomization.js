@@ -1,4 +1,3 @@
-import './testCustomization.sass'
 import { banksCollection, banksInfo } from './firebase.js'
 
 Object.prototype.length = function(){

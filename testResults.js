@@ -1,4 +1,3 @@
-import './testResults.sass'
 import { banksCollection, banksInfo } from './firebase.js'
 import { questionRecord } from './examOperations.js'
 

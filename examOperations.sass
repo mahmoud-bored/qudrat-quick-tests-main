@@ -1,12 +1,16 @@
 html
     body
         main
-            display: flex
+            display: none
             flex-direction: column
             justify-content: space-evenly
             width: 100%
             height: 100%
+            background-image: url('./imgs/background.png')
+            background-repeat: none
+            background-size: cover
             .exam-info-header
+                position: relative
                 width: 100%
                 height: 60px
                 display: flex
@@ -53,6 +57,26 @@ html
                     justify-content: center
                     align-items: center
                     gap: 5px
+            .answer-align-container
+                position: absolute
+                bottom: -43px
+                left: 10px
+                display: flex
+                gap: 10px
+                .answer-align-button
+                    border: 2px #5272F2 solid
+                    border-radius: 5px
+                    height: 40px
+                    z-index: 1
+                    cursor: pointer
+                    transition: background-color 0.1s ease
+                    img
+                        height: inherit
+                    @media ( hover : hover) 
+                        &:hover
+                            background-color: rgb(100, 126, 233, 0.3)
+                    *
+                        pointer-events: none
             .question-container
                 position: relative
                 margin-inline: auto
@@ -113,10 +137,11 @@ html
                     input
                         width: 90%
                     .question-paragraph-container
-                        background-color: #f1f1f1
+                        background-color: rgb(241, 241, 241, 0.5)
                         height: 95%
                         width: 100%
                         border-radius: 10px
+                        border: 6px solid rgba(241, 241, 241, 0.5)
                         display: flex
                         justify-content: center
                         align-items: center
@@ -133,7 +158,7 @@ html
                                 justify-content: center
                                 align-items: center
                                 img
-                                    width: max(30%, 135px)
+                                    width: min(30%, 135px)
                                 .hide
                                     display: none !important                            
                 .choices-container
@@ -154,13 +179,14 @@ html
                         border-radius: 5px
                         background-color: #fff
                         color: #000
-                        transition: color 0.3s ease, background-color 0.3s ease
+                        background-color: rgba(94, 238, 37, 0.3)
+                        transition: color 0.2s ease, background-color 0.2s ease
                         font-size: 1.2em
                         font-weight: 600
                         cursor: pointer
                         @media (hover : hover)
                             &:hover
-                                background-color: #5eee25
+                                background-color: rgba(94, 238, 37, 0.6)
                                 color: #fff
                 
             .general-test-controls
@@ -186,6 +212,7 @@ html
                         color: #fff
                         cursor: pointer
                         user-select: none
+                        font-size: 1.3em
                 .test-skip-question-container
                     display: flex
                     justify-content: center
@@ -203,9 +230,9 @@ html
                         border-radius: 5px
                         cursor: pointer
                         user-select: none
-                        background-color: #fff
+                        background-color: rgba(13, 110, 253, 0.1)
                         transition: background-color 0.2s ease, color 0.2s ease
                         @media (hover : hover )
                             &:hover
                                 color: #fff
-                                background-color: #0d6efd
+                                background-color: rgba(13, 110, 253, 0.4)
