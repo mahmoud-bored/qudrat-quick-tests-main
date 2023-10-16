@@ -53,11 +53,21 @@ document.querySelectorAll('.bank-check-name').forEach(elmnt =>{
     }
 })
 // Activate the First bank
-document.querySelectorAll('.bank-check-name').forEach(elmnt =>{
-    if(elmnt.getAttribute('data-value') == banksInfo[Object.keys(banksInfo)[0]]['id']){
-        elmnt.click()
-    }
-})
+// document.querySelectorAll('.bank-check-name').forEach(elmnt =>{
+//     if(elmnt.getAttribute('data-value') == banksInfo[Object.keys(banksInfo)[0]]['id']){
+//         elmnt.click()
+//     }
+// })
+
+// TEMP: Activate First Exam in Bank First Bank
+activeTestsList['bank1']['test1'] = {
+    info:{
+        name: 'الإختبار الأول (تناظر لفظي)'
+    },
+    questions: {}
+}
+document.querySelector('.bank-check:nth-child(1)').classList.add('bank-checked')
+
 
 // Customize bank questions Tab Functions
 document.querySelectorAll('.bank-customize').forEach(elmnt => {
