@@ -1782,7 +1782,7 @@
                         "2": "مهتَمّا",
                         "3": "متَّهِما"
                     },
-                    "rightAnswer": "متَّهِما"
+                    "correctAnswer": "متَّهِما"
                 },
                 "1": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">سرقة المال فيها\n........؛ وتذكر العقوبة ........</p>",
@@ -1792,7 +1792,7 @@
                         "2": "إثم -  تَزيده",
                         "3": "حسرة – تجلبها"
                     },
-                    "rightAnswer": "لذة – تُذهبها"
+                    "correctAnswer": "لذة – تُذهبها"
                 },
                 "2": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الشعراء ........ تغنوا\nبالشجرة حتى شبهوا المرأة بأغصانها ...........</p>",
@@ -1802,7 +1802,7 @@
                         "2": "الأقوياء –المورقة",
                         "3": "العرب – المتمايلة"
                     },
-                    "rightAnswer": "العرب – المتمايلة"
+                    "correctAnswer": "العرب – المتمايلة"
                 },
                 "3": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">ثلاثة ليس معها غربة :\nحسن الأدب ، ....... الأذى ومجانبة الريب .</p>",
@@ -1812,7 +1812,7 @@
                         "2": "وكف",
                         "3": "ورد"
                     },
-                    "rightAnswer": "وكف"
+                    "correctAnswer": "وكف"
                 },
                 "4": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">القرار هو الاختيار\nالذي تم التوصل إليه بعد ........... بين عدة اختيارات .</p>",
@@ -1822,7 +1822,7 @@
                         "2": "الجمع",
                         "3": "المراقبة"
                     },
-                    "rightAnswer": "المفاضلة"
+                    "correctAnswer": "المفاضلة"
                 },
                 "5": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من الضروري أن نفرق بين التنجيم بمعناه السلبي كوسيلة\n.............. المستقبل والوقوف على أحداث لم تزل بعد مجهولة ؛ وبين دراسات التوقع\n............ العلمي القائم على الحسابات الفلكية والأنشطة الجوية .&nbsp;</p>",
@@ -1832,7 +1832,7 @@
                         "2": "لدراسة - للتطور",
                         "3": "لكشف - للتحقق"
                     },
-                    "rightAnswer": "لكشف - للتحقق"
+                    "correctAnswer": "لكشف - للتحقق"
                 },
                 "6": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تنوء الأمة ............ اخطاء ابنائها الذين\nانحرفوا عن سبيل الحق ووقعوا في .......... الشيطان&nbsp;</p>",
@@ -1842,7 +1842,7 @@
                         "2": "بعمل - مصايد",
                         "3": "بثقل - براثن"
                     },
-                    "rightAnswer": "بثقل - براثن"
+                    "correctAnswer": "بثقل - براثن"
                 },
                 "7": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">التعلم كالسباحة ضد التيار، إن لم .... سوف .......</p>",
@@ -1852,7 +1852,7 @@
                         "2": "تجدف – تُرمى",
                         "3": "تجتهد – ترسب"
                     },
-                    "rightAnswer": "تتقدم – تتراجع"
+                    "correctAnswer": "تتقدم – تتراجع"
                 },
                 "8": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من أحدث ما توصلت إليه الدراسات\n...... أن الأحياء البحرية تضعف ...... إذا تعرضت للنفايات الكيميائية.</p>",
@@ -1862,7 +1862,7 @@
                         "2": "الجيولوجية – قوتها",
                         "3": "البحرية – حيلتها"
                     },
-                    "rightAnswer": "المعاصرة – مناعتها"
+                    "correctAnswer": "المعاصرة – مناعتها"
                 },
                 "9": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">العالم يعتز&nbsp; ............ وينسى .............</p>",
@@ -1872,7 +1872,7 @@
                         "2": "بعلمه  - عمله",
                         "3": "بماله  -  مركزه"
                     },
-                    "rightAnswer": "بإنجازه  -  نسبه"
+                    "correctAnswer": "بإنجازه  -  نسبه"
                 },
                 "10": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لا يمنعن رجلاً\n........الناس أن يقول بالحق إذا ...........</p>",
@@ -1882,7 +1882,7 @@
                         "2": "هيبة – علمه",
                         "3": "قلة- بلغه"
                     },
-                    "rightAnswer": "هيبة – علمه"
+                    "correctAnswer": "هيبة – علمه"
                 },
                 "11": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لم أرَ أشقى بماله من\nالبخيل ، لأنه في الدنيا يهتم ......... وفي الآخرة يحاسب على ..........</p>",
@@ -1892,7 +1892,7 @@
                         "2": "بإحصائه – صدقاته",
                         "3": "بإنفاقه – أفعاله"
                     },
-                    "rightAnswer": "بجمعه – منعه"
+                    "correctAnswer": "بجمعه – منعه"
                 },
                 "12": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">إني أشفق على البخيل بماله فإنه ينشغل في الدنيا\nعلى ....... ويحاسب في الآخرة على<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> .....</span></p>",
@@ -1902,7 +1902,7 @@
                         "2": "أمد – الطموح",
                         "3": "جمعه- منعه"
                     },
-                    "rightAnswer": "جمعه- منعه"
+                    "correctAnswer": "جمعه- منعه"
                 },
                 "13": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">البخيل يقضى حياته في ........&nbsp; المال و يحاسب يوم القيامة على .......... .</p>",
@@ -1912,7 +1912,7 @@
                         "2": "اختراع – طارق",
                         "3": "محب - مبغض"
                     },
-                    "rightAnswer": "جمع – منعه"
+                    "correctAnswer": "جمع – منعه"
                 },
                 "14": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">كان عمر بن الخطاب يهتم\n....... القوم ، فلا يحابي ......... ولا يداهن وجيهاً ،حريصاً على عدم وضع أحد في\nغير مكانه .&nbsp;</p>",
@@ -1922,7 +1922,7 @@
                         "2": "بأموال – مظلوماً",
                         "3": "بفقراء – غنياً"
                     },
-                    "rightAnswer": "بفقراء – غنياً"
+                    "correctAnswer": "بفقراء – غنياً"
                 },
                 "15": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الصبر من شيم .........\nالذين يتلقون ......... برحابة الصدر .</p>",
@@ -1932,7 +1932,7 @@
                         "2": "الأشرار – الخطوب",
                         "3": "الأحرار – الظلم"
                     },
-                    "rightAnswer": "الأفذاذ –المكاره"
+                    "correctAnswer": "الأفذاذ –المكاره"
                 },
                 "16": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من لاح له\n.........الآخرة هان عليه ........الدنيا .</p>",
@@ -1942,7 +1942,7 @@
                         "2": "قوة – ترك",
                         "3": "فوز – هزيمة"
                     },
-                    "rightAnswer": "كمال- فراق"
+                    "correctAnswer": "كمال- فراق"
                 },
                 "17": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لا تعاقب على .......\nالصغيرة بعقوبة الإصرار ، وعلى ..... بعقوبة العمد.</p>",
@@ -1952,7 +1952,7 @@
                         "2": "تعمد – الإصرار",
                         "3": "الكبيرة – الصغيرة"
                     },
-                    "rightAnswer": "الهفوة – الخطأ"
+                    "correctAnswer": "الهفوة – الخطأ"
                 },
                 "18": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">في العفو ..........لا\nتوجد في .......</p>",
@@ -1962,7 +1962,7 @@
                         "2": "خسارة – الكناية",
                         "3": "شجاعة – الصبر"
                     },
-                    "rightAnswer": "لذة – الانتقام"
+                    "correctAnswer": "لذة – الانتقام"
                 },
                 "19": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">خطب يزيد يومًا فاستُغلق\nعليه ، فننزل عن المنبر ، وقال : أنتم إلى أمير..........أحوج منكم إلى..........<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -1972,7 +1972,7 @@
                         "2": "رحيم- مائل",
                         "3": "فاعل-قائل"
                     },
-                    "rightAnswer": "فاعل-قائل"
+                    "correctAnswer": "فاعل-قائل"
                 },
                 "20": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">كان مُضر أول من\n...........الإبل ; لأنه كان حسن..............<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -1982,7 +1982,7 @@
                         "2": "عقر-الذبح",
                         "3": "حدا - الصوت"
                     },
-                    "rightAnswer": "حدا - الصوت"
+                    "correctAnswer": "حدا - الصوت"
                 },
                 "21": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">كل واحد منا لابد أن\nيكون........لوطنه،.......عن مقوماته.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -1992,7 +1992,7 @@
                         "2": "محابيًا -مدافعاً",
                         "3": "محبًا-مسائلاً"
                     },
-                    "rightAnswer": "محابيًا -مدافعاً"
+                    "correctAnswer": "محابيًا -مدافعاً"
                 },
                 "22": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تريد المرأة أن\nتكون...... في حياة الرجل ، ويريد الرجل أن يكون.....في حياتها.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2002,7 +2002,7 @@
                         "2": "الأنثى-الأفضل",
                         "3": "الأهم-الخاتم"
                     },
-                    "rightAnswer": "الأخيرة- الأول"
+                    "correctAnswer": "الأخيرة- الأول"
                 },
                 "23": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الكريم........إذا\nاستعطفته ، واللئيم.............إذا لاطفته.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2012,7 +2012,7 @@
                         "2": "يفرح-يعطى",
                         "3": "يعطف-يرق"
                     },
-                    "rightAnswer": "يلين-يقسو"
+                    "correctAnswer": "يلين-يقسو"
                 },
                 "24": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تغاضَ\nعن........الصغيرة لأن لك.........عظيمة.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2022,7 +2022,7 @@
                         "2": "الإشارات-مصائب",
                         "3": "المساوئ-مساوئ ( سيئات)"
                     },
-                    "rightAnswer": "المساوئ-مساوئ ( سيئات)"
+                    "correctAnswer": "المساوئ-مساوئ ( سيئات)"
                 },
                 "25": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لن يراك الناس…….اذا\nتجاهلت السفهاء<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>ولكن\nقد.&nbsp;……بينكم عندما تحاول مواجهتهم</p>",
@@ -2032,7 +2032,7 @@
                         "2": "متواضعًا -يمزجون",
                         "3": "متغطرسًا – يميزون"
                     },
-                    "rightAnswer": "متكبرا – يخلطون"
+                    "correctAnswer": "متكبرا – يخلطون"
                 },
                 "26": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من آداب&nbsp;الاستماع أن……\nإلى المتحدث فلا تصرف……عنه حتى لو كنت تعلم بما يقول&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2042,7 +2042,7 @@
                         "2": "الهم-الغم",
                         "3": "تستمع- النظر"
                     },
-                    "rightAnswer": "تستمع- النظر"
+                    "correctAnswer": "تستمع- النظر"
                 },
                 "27": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من آداب ………… ان تبدي اهتمام\nفي حديث المتحدث ، و لا تصرف عنه …….. حتى لو كنت تعلم ما يتحدث عنه</p>",
@@ -2052,7 +2052,7 @@
                         "2": "الانصات - النظر",
                         "3": "معلومات - نقود"
                     },
-                    "rightAnswer": "الانصات - النظر"
+                    "correctAnswer": "الانصات - النظر"
                 },
                 "28": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">عمل…......خير من فراغ.......…..<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2062,7 +2062,7 @@
                         "2": "عرفت- فهم",
                         "3": "قدرت- علم"
                     },
-                    "rightAnswer": "مجهد- مفسد"
+                    "correctAnswer": "مجهد- مفسد"
                 },
                 "29": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الفرد\n............... في صرح المجتمع فالأمم التي ............... التقدم والازدهار\nعليها الاهتمام به خاصة في مجال التربية والتعليم&nbsp;</p>",
@@ -2072,7 +2072,7 @@
                         "2": "أساس – تنوي",
                         "3": "محبوب - تريد"
                     },
-                    "rightAnswer": "أساس – تريد"
+                    "correctAnswer": "أساس – تريد"
                 },
                 "30": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الفرد ............... في صرح المجتمع فالأمم التي ............... التقدم\nوالازدهار عليها الاهتمام به خاصة في مجال التربية والتعليم&nbsp;</p>",
@@ -2082,7 +2082,7 @@
                         "2": "محبوب - تريد",
                         "3": "لبنة – تنشد"
                     },
-                    "rightAnswer": "لبنة – تنشد"
+                    "correctAnswer": "لبنة – تنشد"
                 },
                 "31": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">السعادة\nينبوع ......... الجميع أن يصلوا إليه وهم لا ...... أنه تحت أقدامهم .</p>",
@@ -2092,7 +2092,7 @@
                         "2": "يسعى – يسمعون",
                         "3": "يتمنى – يعرفون"
                     },
-                    "rightAnswer": "يتمنى – يعرفون"
+                    "correctAnswer": "يتمنى – يعرفون"
                 },
                 "32": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">حارب عدوك\nبالسلاح الذي .........، لا بالسلاح الذي .......<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2102,7 +2102,7 @@
                         "2": "هرمنا- صغرنا",
                         "3": "أقمنا- هزمنا"
                     },
-                    "rightAnswer": "يخشاه- تخشاه"
+                    "correctAnswer": "يخشاه- تخشاه"
                 },
                 "33": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الشقي من جمع المال.......وبخل علي<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span>....</span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><b zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span> </b></p>",
@@ -2112,7 +2112,7 @@
                         "2": "أهانك – تجرأ",
                         "3": "لكثرته –قرابته"
                     },
-                    "rightAnswer": "لغيره-نفسه"
+                    "correctAnswer": "لغيره-نفسه"
                 },
                 "34": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">إذا أردت&nbsp; عدم\n..........&nbsp; فلا تتكلم ولا ........ حتى\nتصبح لا شيء&nbsp; &nbsp;</p>",
@@ -2122,7 +2122,7 @@
                         "2": "الجدال- تسأل",
                         "3": "السخرية- تغضب"
                     },
-                    "rightAnswer": "النقد- تعمل"
+                    "correctAnswer": "النقد- تعمل"
                 },
                 "35": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">اذا لم\nتكن مستعدا لقبول …....... اذا انت لست ناضجا ل….....…&nbsp; &nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2132,7 +2132,7 @@
                         "2": "الحق-الباطل",
                         "3": "اللوم : الذم"
                     },
-                    "rightAnswer": "اللوم-النقد"
+                    "correctAnswer": "اللوم-النقد"
                 },
                 "36": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">كل مياه\nالبحر لا تقدر على إغراق ............. &nbsp;إلا اذا تسلل الماء داخلها، كذلك الفشل لا\nيستطيع أن يسيطر عليك، إلا إذا تسلل ............. &nbsp;إلى نفسك<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span>!</span></p>",
@@ -2142,7 +2142,7 @@
                         "2": "الأقمار –الصناعية",
                         "3": "المكتبات -الإعلام"
                     },
-                    "rightAnswer": "السفينة – التشاؤم"
+                    "correctAnswer": "السفينة – التشاؤم"
                 },
                 "37": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يعد العمران......... من نماذج<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span>.........البشرية</p>",
@@ -2152,7 +2152,7 @@
                         "2": "الكتاب-القاريء",
                         "3": "نموذج- الحضارة"
                     },
-                    "rightAnswer": "نموذج- الحضارة"
+                    "correctAnswer": "نموذج- الحضارة"
                 },
                 "38": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">انتشار ........... الإسلامية في أنحاء العالم دليل على ..........الحضارة\nالإسلامية&nbsp;</p>",
@@ -2162,7 +2162,7 @@
                         "2": "العمارة – عظم",
                         "3": "الآراء- روعة"
                     },
-                    "rightAnswer": "العمارة – عظم"
+                    "correctAnswer": "العمارة – عظم"
                 },
                 "39": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">كما ان الغدر من سمات الخائن\nفإن........  من سمات........&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2172,7 +2172,7 @@
                         "2": "الدنيء - المنافق",
                         "3": "المروءة - الكريم"
                     },
-                    "rightAnswer": "المروءة - الكريم"
+                    "correctAnswer": "المروءة - الكريم"
                 },
                 "40": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الأشخاص الذين لا يتراجعون عن آرائهم هم أشخاص يحبون\nأنفسهم أكثر من<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> ...............</span></p>",
@@ -2182,7 +2182,7 @@
                         "2": "غيرهم",
                         "3": "المخاطر"
                     },
-                    "rightAnswer": "الحقيقة"
+                    "correctAnswer": "الحقيقة"
                 },
                 "41": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الذين لا يتراجعون عن رأيهم ، يُحبّون أنفسهم أكثر\nمما يحبّون ..........</p>",
@@ -2192,7 +2192,7 @@
                         "2": "الحقيقة",
                         "3": "آرائهم"
                     },
-                    "rightAnswer": "الحقيقة"
+                    "correctAnswer": "الحقيقة"
                 },
                 "42": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">إذا استطعت أن تقابل الله اخمص البطن عن ........الناس\nكافٍ لسانك عن ........فافعل ذلك&nbsp;</p>",
@@ -2202,7 +2202,7 @@
                         "2": "عال – اليد",
                         "3": "خفي – النفس"
                     },
-                    "rightAnswer": "أموال – أعراضهم"
+                    "correctAnswer": "أموال – أعراضهم"
                 },
                 "43": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الجليس الصالح ......... يهون عليك ........... ،\nويفتح لك باب الرجاء، والمتشائم يسود الدنيا في عينك.&nbsp;</p>",
@@ -2212,7 +2212,7 @@
                         "2": "المثقف - المخاطر",
                         "3": "المتفائل- الصعاب"
                     },
-                    "rightAnswer": "المتفائل- الصعاب"
+                    "correctAnswer": "المتفائل- الصعاب"
                 },
                 "44": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">قد ينظر الطفل إلى غيره و يرى أنه …… فيستنتج أنه\n…..منهم&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2222,7 +2222,7 @@
                         "2": "تمثل-العلاقات",
                         "3": "ضعيف  - أقل"
                     },
-                    "rightAnswer": "ضعيف  - أقل"
+                    "correctAnswer": "ضعيف  - أقل"
                 },
                 "45": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">قرأت كتابًا في ثلاثينيات القرن التاسع أي في الفترة من ..............</p>",
@@ -2232,7 +2232,7 @@
                         "2": "820-830",
                         "3": "930-940"
                     },
-                    "rightAnswer": "830-840"
+                    "correctAnswer": "830-840"
                 },
                 "46": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">قرأت كتابًا في سبعينيات القرن التاسع أي في الفترة من ..............</p>",
@@ -2242,7 +2242,7 @@
                         "2": "820-830",
                         "3": "930-940"
                     },
-                    "rightAnswer": "870-880"
+                    "correctAnswer": "870-880"
                 },
                 "47": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\">........ </span>والحوار ينتج عنهما ........الافكار وبالتالي\nتطور العلم والمعرفة<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span></p>",
@@ -2251,7 +2251,7 @@
                         "1": "النقاش-تعارض",
                         "2": "الجدال- التقاء"
                     },
-                    "rightAnswer": "النقاش-تلاقح"
+                    "correctAnswer": "النقاش-تلاقح"
                 },
                 "48": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من .......... &nbsp;ان اللغة العربية لا تهتم لها في الدول\n............ كما تفعل الدول الاخرى مع لغاتها&nbsp;</p>",
@@ -2261,14 +2261,14 @@
                         "2": "أحدث-المخاطر",
                         "3": "الإنجازات - يمنحوا"
                     },
-                    "rightAnswer": "المحزن-العربية"
+                    "correctAnswer": "المحزن-العربية"
                 },
                 "49": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من ……… الله لا يخاف من\nأحد ومن يخاف من الناس&nbsp; ……كل شيء&nbsp;</p>",
                     "answers": {
                         "0": "يهاب – يخاف"
                     },
-                    "rightAnswer": "يهاب – يخاف"
+                    "correctAnswer": "يهاب – يخاف"
                 }
             }
         },
@@ -2285,7 +2285,7 @@
                         "2": "المؤسف –الغربية",
                         "3": "التردد - وجودهم"
                     },
-                    "rightAnswer": "المخجل-العربية"
+                    "correctAnswer": "المخجل-العربية"
                 },
                 "1": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">السخاء والكرم .......... عيوب المرء\nوالبخل ........... كل غطاء&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2295,7 +2295,7 @@
                         "2": "يغطي  - يكشف",
                         "3": "ينامون- مرجوة"
                     },
-                    "rightAnswer": "يغطي  - يكشف"
+                    "correctAnswer": "يغطي  - يكشف"
                 },
                 "2": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الكرم ......... &nbsp;العيوب والبخل ..............&nbsp;</p>",
@@ -2305,7 +2305,7 @@
                         "2": "مكتوب - مذنب",
                         "3": "مقسوم - محروم"
                     },
-                    "rightAnswer": "يخفي – يكشفها"
+                    "correctAnswer": "يخفي – يكشفها"
                 },
                 "3": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\">المسعفين</span><span dir=\"rtl\" zoompage-fontsize=\"16\"> يجب أن يكونوا قادرين على ..... على أعصابهم وأن يكون لديهم .... في&nbsp; اتخاذ القرار المناسب.&nbsp;</span><br></p>",
@@ -2315,7 +2315,7 @@
                         "2": "البدل - الرغبة",
                         "3": "الحفاظ- السرعة"
                     },
-                    "rightAnswer": "الحفاظ- السرعة"
+                    "correctAnswer": "الحفاظ- السرعة"
                 },
                 "4": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الألفاظ هي رداء ...... فيجب ألا&nbsp; تكون في ثياب رثة&nbsp; بالية <span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span>.</span></p>",
@@ -2325,7 +2325,7 @@
                         "2": "أقوالنا",
                         "3": "هيئاتنا"
                     },
-                    "rightAnswer": "أفكارنا"
+                    "correctAnswer": "أفكارنا"
                 },
                 "5": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">العيب&nbsp; في سفينتنا ليست .......\nالتي بدأت تلوح في الأفق بل في الفئران التي تأكل ......... ونحن عنها غافلون.</p>",
@@ -2335,7 +2335,7 @@
                         "2": "السفن- أطرافها",
                         "3": "المكتبات -الإعلام"
                     },
-                    "rightAnswer": "العاصفة – جنباتها"
+                    "correctAnswer": "العاصفة – جنباتها"
                 },
                 "6": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">احذر ............. إذا مازحته و.......... إذا\nعاشرته .</p>",
@@ -2345,7 +2345,7 @@
                         "2": "الذل – الطريق",
                         "3": "الكريم – اللئيم"
                     },
-                    "rightAnswer": "الأرعن – السافل"
+                    "correctAnswer": "الأرعن – السافل"
                 },
                 "7": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تهاجر الحيتان في ........ كبيرة وخاصة في موسم تكاثرها وتقطع ..........\nطويلة في المحيطات والبحار.</p>",
@@ -2355,7 +2355,7 @@
                         "2": "مجموعة- جماعيا",
                         "3": "جماعات-عمل"
                     },
-                    "rightAnswer": "أفواج -رحلة"
+                    "correctAnswer": "أفواج -رحلة"
                 },
                 "8": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الدين لا يلغي ال ........... بل يهذبها\n، والتربية لا تغير الطبائع&nbsp; بل&nbsp; ........</p>",
@@ -2365,7 +2365,7 @@
                         "2": "السقوط- راقد",
                         "3": "الخمول - المشكلات"
                     },
-                    "rightAnswer": "الغرائز-يحسنها"
+                    "correctAnswer": "الغرائز-يحسنها"
                 },
                 "9": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الدين لا يلغي … لكن يروضها والتربية لا\nتغير الاطباع بل …&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2375,7 +2375,7 @@
                         "2": "الشهوات -  الغل",
                         "3": "الغرائز – تهذبها"
                     },
-                    "rightAnswer": "الغرائز – تهذبها"
+                    "correctAnswer": "الغرائز – تهذبها"
                 },
                 "10": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">ان الاتصال في العلاقات ....تشبه التنفس في الانسان كلاهما يهدف الى\n......الحياة .</p>",
@@ -2385,7 +2385,7 @@
                         "2": "المحاضرة – المناظرة",
                         "3": "المحكمة–المناظرة"
                     },
-                    "rightAnswer": "الإنسانية–استمرار"
+                    "correctAnswer": "الإنسانية–استمرار"
                 },
                 "11": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تستطيع تجريد جيش من ..........ولكن لا تستطيع تجريد الناس من ..........</p>",
@@ -2395,7 +2395,7 @@
                         "2": "تربيته-بره",
                         "3": "تكوين – التشابه"
                     },
-                    "rightAnswer": "قائدهم – إرادتهم"
+                    "correctAnswer": "قائدهم – إرادتهم"
                 },
                 "12": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تستطيع تجريد جيش من ..........ولكن لا تستطيع تجريد الناس من ..........</p>",
@@ -2405,7 +2405,7 @@
                         "2": "مستقبله –خطواته",
                         "3": "حلمه – طعامه"
                     },
-                    "rightAnswer": "سلاحه – كرامتهم"
+                    "correctAnswer": "سلاحه – كرامتهم"
                 },
                 "13": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">أفِدّ الناس\nب….وشاركهم…..<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2415,7 +2415,7 @@
                         "2": "كتبك- مكتبتك",
                         "3": "خيالك- كتابتك"
                     },
-                    "rightAnswer": "مالك- رأيك"
+                    "correctAnswer": "مالك- رأيك"
                 },
                 "14": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لا………. من غير ……….</p>",
@@ -2425,7 +2425,7 @@
                         "2": "ازدهار – استقرار",
                         "3": "حياة – موت"
                     },
-                    "rightAnswer": "ازدهار – استقرار"
+                    "correctAnswer": "ازدهار – استقرار"
                 },
                 "15": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span>.......السعيدة\nتكون ب ....... بين الزوجين مما يقوي الحب بينهم&nbsp;</p>",
@@ -2435,7 +2435,7 @@
                         "2": "النفقات – الأعمال",
                         "3": "المودة -الحقد"
                     },
-                    "rightAnswer": "الزيجات -الاحترام"
+                    "correctAnswer": "الزيجات -الاحترام"
                 },
                 "16": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">يسعى....\nلتعليم الطلاب ليصبحوا &nbsp;متفوقين ويحققوا\nالانجازات ويفيدوا بلدهم.... دخولهم المجال الوظيفي<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2445,7 +2445,7 @@
                         "2": "المجتمع - اثناء",
                         "3": "التعليم – حتى"
                     },
-                    "rightAnswer": "المعلم - بعد"
+                    "correctAnswer": "المعلم - بعد"
                 },
                 "17": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">النفس\nترتاح من قلة ..........والبدن يرتاح من قلة .......</p>",
@@ -2455,7 +2455,7 @@
                         "2": "الآثام –الطعام",
                         "3": "الوهم- الكلام"
                     },
-                    "rightAnswer": "الآثام –الطعام"
+                    "correctAnswer": "الآثام –الطعام"
                 },
                 "18": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">تدنو من\n............. بقدر ما تدنو من التواضع&nbsp;</p>",
@@ -2465,7 +2465,7 @@
                         "2": "الضعف",
                         "3": "التكبر"
                     },
-                    "rightAnswer": "العظمة"
+                    "correctAnswer": "العظمة"
                 },
                 "19": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">كلما .....علمًا ، زادت معرفتك.......<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2475,7 +2475,7 @@
                         "2": "زينة – ترتاح",
                         "3": "عرض - تعرف"
                     },
-                    "rightAnswer": "ازددت- بجهلك"
+                    "correctAnswer": "ازددت- بجهلك"
                 },
                 "20": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">المتحدث الذي.....من حقه ان يكون<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span>.....</span></p>",
@@ -2485,7 +2485,7 @@
                         "2": "لا ينسى- معلم",
                         "3": "لا يحفظ –فنان"
                     },
-                    "rightAnswer": "لا يخطئ - مغرورا"
+                    "correctAnswer": "لا يخطئ - مغرورا"
                 },
                 "21": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">الحج مؤتمر.......يتحد (يتشاور ) فيه ............</p>",
@@ -2495,7 +2495,7 @@
                         "2": "عربي - العالم",
                         "3": "سمر – غنى"
                     },
-                    "rightAnswer": "إسلامي-الامة"
+                    "correctAnswer": "إسلامي-الامة"
                 },
                 "22": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">ميخائيل نعمه ........... تطوير الحركة الفكرية والثورة الثقافية</p>",
@@ -2505,7 +2505,7 @@
                         "2": "باد",
                         "3": "فاد"
                     },
-                    "rightAnswer": "قاد"
+                    "correctAnswer": "قاد"
                 },
                 "23": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">عليكم ب ..... الأخبار فإنها من صفات الملوك، ...... تصل إلى منزلتهم\nوعظمتهم<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2515,7 +2515,7 @@
                         "2": "أخبار – به",
                         "3": "أجود – عندها"
                     },
-                    "rightAnswer": "أجود – عندها"
+                    "correctAnswer": "أجود – عندها"
                 },
                 "24": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">الأصدقاء الحقيقيون : يصعب .......... ، ويستحيل .........&nbsp;&nbsp;</p>",
@@ -2525,7 +2525,7 @@
                         "2": "يمكن –تحقيقه",
                         "3": "تركهم- نسيانهم"
                     },
-                    "rightAnswer": "تركهم- نسيانهم"
+                    "correctAnswer": "تركهم- نسيانهم"
                 },
                 "25": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">ما زالت ............التسرب من التعليم مثيرة للقلق وما زالت طرائق التدريس\nعامة تجبر بأساليب تربوية ........الزمن.</p>",
@@ -2535,7 +2535,7 @@
                         "2": "أفواج – تجاوزها",
                         "3": "معدلات – تفاداها"
                     },
-                    "rightAnswer": "أفواج – تجاوزها"
+                    "correctAnswer": "أفواج – تجاوزها"
                 },
                 "26": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">لكي&nbsp; تكون قائداً مميزاً لا&nbsp; ......... الآخرين&nbsp;</p>",
@@ -2545,7 +2545,7 @@
                         "2": "تنصح",
                         "3": "تقلد"
                     },
-                    "rightAnswer": "تقلد"
+                    "correctAnswer": "تقلد"
                 },
                 "27": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">عاتب صديقك في\n........... وامدحه في .........</p>",
@@ -2555,7 +2555,7 @@
                         "2": "الدنيا - الإنسان",
                         "3": "الأرض – الناس"
                     },
-                    "rightAnswer": "السر- العلن"
+                    "correctAnswer": "السر- العلن"
                 },
                 "28": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">انصح صديقك&nbsp;&nbsp; في........ وامدحه في........</p>",
@@ -2565,7 +2565,7 @@
                         "2": "عزلة – تقدم",
                         "3": "تقدم-تخلف"
                     },
-                    "rightAnswer": "السر – العلن"
+                    "correctAnswer": "السر – العلن"
                 },
                 "29": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">لُم&nbsp;\nأخاك&nbsp;&nbsp; في........ وامدحه\nفي........</p>",
@@ -2575,7 +2575,7 @@
                         "2": "عاقل - جاهل",
                         "3": "بارز - مستتر"
                     },
-                    "rightAnswer": "السر – العلن"
+                    "correctAnswer": "السر – العلن"
                 },
                 "30": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">لم صاحبك في ……. ، و اثن عليه في ……….&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2585,7 +2585,7 @@
                         "2": "السر - العلن",
                         "3": "الخمول-المشكلات"
                     },
-                    "rightAnswer": "السر - العلن"
+                    "correctAnswer": "السر - العلن"
                 },
                 "31": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">الأعاصير تحدث فوق\nالمحيطات عند …… لليابسة تحدث ….. كبيرا</p>",
@@ -2595,7 +2595,7 @@
                         "2": "النتائج - الحركة",
                         "3": "النوم - يصيح"
                     },
-                    "rightAnswer": "الوصول – دماراً"
+                    "correctAnswer": "الوصول – دماراً"
                 },
                 "32": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">الأعاصير تحدث ........... عند ...........&nbsp;\nإلى اليابسة&nbsp;</p>",
@@ -2605,7 +2605,7 @@
                         "2": "التواضع – الرقي",
                         "3": "الذل – الطريق"
                     },
-                    "rightAnswer": "دماراً – وصولها"
+                    "correctAnswer": "دماراً – وصولها"
                 },
                 "33": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span><span dir=\"rtl\" zoompage-fontsize=\"16\"></span>............ تطفو على الماء و........ يغوص في الأعماق</p>",
@@ -2615,7 +2615,7 @@
                         "2": "السفينة – القرش",
                         "3": "الورقة - المسمار الفولاذ"
                     },
-                    "rightAnswer": "القشة – الحجر الكريم"
+                    "correctAnswer": "القشة – الحجر الكريم"
                 },
                 "34": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">القشة تطفو على الماء والحجر الكريم يغوص في .........</p>",
@@ -2625,7 +2625,7 @@
                         "2": "الدائرية",
                         "3": "الأعماق"
                     },
-                    "rightAnswer": "الأعماق"
+                    "correctAnswer": "الأعماق"
                 },
                 "35": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">هناك أمل في الحياة ومروءة ما دمت أنت تزرع ........ غيرك مثل ما أنت\n.........زراعة غيرك&nbsp;</p>",
@@ -2635,7 +2635,7 @@
                         "2": "تطعم - تعرف",
                         "3": "يحصد-تحصد"
                     },
-                    "rightAnswer": "يحصد-تحصد"
+                    "correctAnswer": "يحصد-تحصد"
                 },
                 "36": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">السنة&nbsp;\nشجرة&nbsp; والشهور ..........\nوالأسابيع&nbsp; ............والأيام أوراقها&nbsp;</p>",
@@ -2645,7 +2645,7 @@
                         "2": "جذوعها – قوتها",
                         "3": "تفرعاتها – أغصانها"
                     },
-                    "rightAnswer": "تفرعاتها – أغصانها"
+                    "correctAnswer": "تفرعاتها – أغصانها"
                 },
                 "37": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">السنة كالشجرة والأشهر ك……. والأيام\nك……. والساعات كالأوراق<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2655,7 +2655,7 @@
                         "2": "الكساء - الورق",
                         "3": "الفروع – الأغصان"
                     },
-                    "rightAnswer": "الفروع – الأغصان"
+                    "correctAnswer": "الفروع – الأغصان"
                 },
                 "38": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">السنة&nbsp; شجرة&nbsp;\nوالشهور .......... والأسابيع&nbsp;\n............والأيام أوراقها&nbsp;</p>",
@@ -2665,7 +2665,7 @@
                         "2": "فروعها  – أغصانها",
                         "3": "جذوعها – قوتها"
                     },
-                    "rightAnswer": "فروعها  – أغصانها"
+                    "correctAnswer": "فروعها  – أغصانها"
                 },
                 "39": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">الشهر شجرة ..........\nأسابيعه ، ............والأيام أوراقه&nbsp;</p>",
@@ -2675,7 +2675,7 @@
                         "2": "الكساء - الورق",
                         "3": "جذوعها – قوتها"
                     },
-                    "rightAnswer": "الفروع – الأغصان"
+                    "correctAnswer": "الفروع – الأغصان"
                 },
                 "40": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">تسعى\nالدول الي الاهتمام بالجيل و.........النوعية لذا تحرص الدول.........على اصلاح\nبرامجها التعليمية&nbsp;</p>",
@@ -2685,7 +2685,7 @@
                         "2": "حاجات – الكبيرة",
                         "3": "الشخصيات – المتعلمة"
                     },
-                    "rightAnswer": "الكفايات – المتقدمة"
+                    "correctAnswer": "الكفايات – المتقدمة"
                 },
                 "41": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">لولا ......... ما عرفنا النور ولولا ..........ما عرفنا السعادة</p>",
@@ -2695,7 +2695,7 @@
                         "2": "قروية- التفوق",
                         "3": "عشوائية – التخلف"
                     },
-                    "rightAnswer": "الظلام- الحزن"
+                    "correctAnswer": "الظلام- الحزن"
                 },
                 "42": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">لو\nرأيت في سير الأقدمين لن .............. من هلكته لسانه و الكلمات التي............\nمنه&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2705,7 +2705,7 @@
                         "2": "تحص – قيلت",
                         "3": "تسمع –ترى"
                     },
-                    "rightAnswer": "تحص – قيلت"
+                    "correctAnswer": "تحص – قيلت"
                 },
                 "43": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">يجب أن\n............ أخلاقيات القائد مع أخلاقيات المهنة التي........... &nbsp;بها&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2715,7 +2715,7 @@
                         "2": "الغيث - التربة",
                         "3": "تتقارب :يتفاخر"
                     },
-                    "rightAnswer": "تتطابق- يقوم"
+                    "correctAnswer": "تتطابق- يقوم"
                 },
                 "44": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">الحياة\nخفيفة (سهلة ) على......... &nbsp;لكنها ثقيلة &nbsp;(صعبة ) على كبار السن</p>",
@@ -2725,7 +2725,7 @@
                         "2": "الكبير",
                         "3": "الرجل"
                     },
-                    "rightAnswer": "الشاب"
+                    "correctAnswer": "الشاب"
                 },
                 "45": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">يولد الإنسان كصفحة .....والتجارب ......عليها&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2735,7 +2735,7 @@
                         "2": "خالية -  تحفر",
                         "3": "المظهر – للمعلم"
                     },
-                    "rightAnswer": "بيضاء - تنقش"
+                    "correctAnswer": "بيضاء - تنقش"
                 },
                 "46": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">الحياة\nتبدأ كالورقة البيضاء وتأتي التجارب &nbsp;........عليها&nbsp;</p>",
@@ -2745,7 +2745,7 @@
                         "2": "أوضح",
                         "3": "لتحفر"
                     },
-                    "rightAnswer": "لتنقش"
+                    "correctAnswer": "لتنقش"
                 },
                 "47": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">إن احترمتني سوف احترمك وان لم تحترمني\nفسوف&nbsp; ........... أنا امثل نفسي وأنت تمثل\nنفسك<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2755,7 +2755,7 @@
                         "2": "أواجهك",
                         "3": "اعاتبك"
                     },
-                    "rightAnswer": "احترمك"
+                    "correctAnswer": "احترمك"
                 },
                 "48": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">من فوائد ....... يزيد المعرفة ويفتح الرزق ويريح النفس ويجعلك تتعرف على\n.........</p>",
@@ -2765,7 +2765,7 @@
                         "2": "السفر –الأصحاب",
                         "3": "ارتفع -بعدت"
                     },
-                    "rightAnswer": "السفر –الأصحاب"
+                    "correctAnswer": "السفر –الأصحاب"
                 },
                 "49": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\"></span></p><p dir=\"rtl\" zoompage-fontsize=\"16\">كلما زادت سلطتك زادت .......... فلا تأخذ\nمن المنصب الشرف وتترك الواجب.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2775,7 +2775,7 @@
                         "2": "رغباتك",
                         "3": "الوقت"
                     },
-                    "rightAnswer": "مسؤوليتك"
+                    "correctAnswer": "مسؤوليتك"
                 }
             }
         },
@@ -2792,7 +2792,7 @@
                         "2": "انفصل",
                         "3": "الفرحة"
                     },
-                    "rightAnswer": "الفرحة"
+                    "correctAnswer": "الفرحة"
                 },
                 "1": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">إن لم تركب السفن لن\nتنال الرغائب .</p>",
@@ -2802,7 +2802,7 @@
                         "2": "تنال",
                         "3": "الرغائب"
                     },
-                    "rightAnswer": "السفن"
+                    "correctAnswer": "السفن"
                 },
                 "2": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">السماء الغائمة في فصل\nالشتاء تؤذن بزوال المطر .&nbsp;</p>",
@@ -2812,7 +2812,7 @@
                         "2": "الشتاء",
                         "3": "بزوال"
                     },
-                    "rightAnswer": "بزوال"
+                    "correctAnswer": "بزوال"
                 },
                 "3": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">العقل يزيد الإنسان من\nالانقياد للعاطفة ويعمل على تهذيبها .</p>",
@@ -2822,7 +2822,7 @@
                         "2": "الانقياد",
                         "3": "ويعمل"
                     },
-                    "rightAnswer": "يزيد"
+                    "correctAnswer": "يزيد"
                 },
                 "4": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">إن للتعلم مرارة لن\nيذوقها إلا من ذاق مرارته .</p>",
@@ -2832,7 +2832,7 @@
                         "2": "ذاق",
                         "3": "مرارته"
                     },
-                    "rightAnswer": "مرارة"
+                    "correctAnswer": "مرارة"
                 },
                 "5": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">صديقك مرآة لك ، تتراءى\nفيها فتكشف لك عن نفسه ، وتصدُقك عن محاسنك وعيوبك .</p>",
@@ -2842,7 +2842,7 @@
                         "2": "تصدُقك",
                         "3": "عيوبك"
                     },
-                    "rightAnswer": "نفسه"
+                    "correctAnswer": "نفسه"
                 },
                 "6": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الجهل أبو الشرور ؛ وأسوأ مصائب الجهل أن يعرف\nالجاهل أنه جاهل&nbsp;</p>",
@@ -2852,7 +2852,7 @@
                         "2": "الجهل",
                         "3": "يعرف"
                     },
-                    "rightAnswer": "يعرف"
+                    "correctAnswer": "يعرف"
                 },
                 "7": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من أسرع إلى الناس بما يحبون قالوا فيه ما لا يعلمون&nbsp;</p>",
@@ -2862,7 +2862,7 @@
                         "2": "يحبون",
                         "3": "يعلمون"
                     },
-                    "rightAnswer": "يحبون"
+                    "correctAnswer": "يحبون"
                 },
                 "8": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يتناسب المستوى الحضاري للإنسان ولمجتمعه مع\nقيمة وحجم ما يحتاج من عمل وجهد.</p>",
@@ -2872,7 +2872,7 @@
                         "2": "يحتاج",
                         "3": "جهد"
                     },
-                    "rightAnswer": "يحتاج"
+                    "correctAnswer": "يحتاج"
                 },
                 "9": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الجهل بثقافة الآخرين يشكل تلقائيا فكرة بريئة\nعنهم.</p>",
@@ -2882,7 +2882,7 @@
                         "2": "تلقائيا",
                         "3": "بريئة"
                     },
-                    "rightAnswer": "بريئة"
+                    "correctAnswer": "بريئة"
                 },
                 "10": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يجب ألا نكتفي بالحديث\nعن دور أمهاتنا القليل ولكن يجب أن نؤدي دورنا الكبير لهن .</p>",
@@ -2892,7 +2892,7 @@
                         "2": "نؤدي",
                         "3": "الكبير"
                     },
-                    "rightAnswer": "القليل"
+                    "correctAnswer": "القليل"
                 },
                 "11": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">احترس من الكريم إذا\nجالسته ومن اللئيم إذا أكرمته ومن الأحمق إذا رافقته .</p>",
@@ -2902,7 +2902,7 @@
                         "2": "الأحمق",
                         "3": "رافقته"
                     },
-                    "rightAnswer": "جالسته"
+                    "correctAnswer": "جالسته"
                 },
                 "12": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">اجعل قبرك خزانتك ،\nاحشها من كل عمل صالح ، فإذا وردت على الناس سرّك ما ترى فيه&nbsp;</p>",
@@ -2912,7 +2912,7 @@
                         "2": "سرّك",
                         "3": "ترى"
                     },
-                    "rightAnswer": "الناس"
+                    "correctAnswer": "الناس"
                 },
                 "13": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يعرف المعلم الطالب\nالحريص من حسن إنصاته وجوابه عما يجهله .</p>",
@@ -2922,7 +2922,7 @@
                         "2": "إنصاته",
                         "3": "جوابه"
                     },
-                    "rightAnswer": "جوابه"
+                    "correctAnswer": "جوابه"
                 },
                 "14": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الغضب ريح قوية تشعل\nمصباح العقل.&nbsp;</p>",
@@ -2932,7 +2932,7 @@
                         "2": "مصباح",
                         "3": "العقل"
                     },
-                    "rightAnswer": "تشعل"
+                    "correctAnswer": "تشعل"
                 },
                 "15": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">أعقل الناس من لم\nيتجاوز الصمت في معاقبة العلماء .&nbsp;</p>",
@@ -2942,7 +2942,7 @@
                         "2": "الصمت",
                         "3": "العلماء"
                     },
-                    "rightAnswer": "العلماء"
+                    "correctAnswer": "العلماء"
                 },
                 "16": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لا ترفض الأعمال الجيدة\nبحجة الإنجاز ، فهناك أفكار تزيد الإنتاجية.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2952,7 +2952,7 @@
                         "2": "بحجة",
                         "3": "الإنجاز"
                     },
-                    "rightAnswer": "الأعمال"
+                    "correctAnswer": "الأعمال"
                 },
                 "17": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تهتم كثير من الشركات\nبإيجاد سبل جديدة ومبتكرة لتقرير الاكتشافات العلمية .<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2962,7 +2962,7 @@
                         "2": "جديدة",
                         "3": "لتقرير"
                     },
-                    "rightAnswer": "لتقرير"
+                    "correctAnswer": "لتقرير"
                 },
                 "18": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الاتصال مهارة مهمة\nوصعبة في الحياة المعاصرة ،وأكبر مشكلاته أن يتوهم الناس أنهم أخفقوا في القيام\nبه.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2972,7 +2972,7 @@
                         "2": "يتوهم",
                         "3": "أخفقوا"
                     },
-                    "rightAnswer": "أخفقوا"
+                    "correctAnswer": "أخفقوا"
                 },
                 "19": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">كلما ازداد استعمال\nالبئر ، نقص عطاؤها.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2982,7 +2982,7 @@
                         "2": "نقص",
                         "3": "عطاؤها"
                     },
-                    "rightAnswer": "نقص"
+                    "correctAnswer": "نقص"
                 },
                 "20": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من نظر إلى الدنيا بغير\nالعبرة ، انطمس من بصر عينه بقدر تلك الغفلة.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -2992,7 +2992,7 @@
                         "2": "عينه",
                         "3": "الغفلة"
                     },
-                    "rightAnswer": "الغفلة"
+                    "correctAnswer": "الغفلة"
                 },
                 "21": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تؤثر المنحدرات الجبلية\nفي التوزيع السكنى لأنها تمتاز بوجود خوانق تساعد النشاط البشرى.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3002,7 +3002,7 @@
                         "2": "خوانق",
                         "3": "تساعد"
                     },
-                    "rightAnswer": "تساعد"
+                    "correctAnswer": "تساعد"
                 },
                 "22": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">ليس <b zoompage-fontsize=\"16\">كل</b> <b zoompage-fontsize=\"16\">سقوط</b> نهاية فسقوط\nالمطر <b zoompage-fontsize=\"16\">أجمل</b> <b zoompage-fontsize=\"16\">نهاية</b> </p>",
@@ -3012,7 +3012,7 @@
                         "2": "أجمل",
                         "3": "نهاية"
                     },
-                    "rightAnswer": "نهاية"
+                    "correctAnswer": "نهاية"
                 },
                 "23": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لن\nتبلغ المجد حتى تذوق حلاوة الصبر</p>",
@@ -3022,7 +3022,7 @@
                         "2": "حلاوة",
                         "3": "الصبر"
                     },
-                    "rightAnswer": "حلاوة"
+                    "correctAnswer": "حلاوة"
                 },
                 "24": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">صاحب من شئت و اقترب من\nالذي يخونك في غيبتك&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3032,7 +3032,7 @@
                         "2": "في",
                         "3": "غيبتك"
                     },
-                    "rightAnswer": "اقترب"
+                    "correctAnswer": "اقترب"
                 },
                 "25": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">احذر من الاصدقاء الذين\nاذا احتاجوك فقدوك واذا احتجتهم لم تجدهم&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3042,7 +3042,7 @@
                         "2": "لم",
                         "3": "تجدهم"
                     },
-                    "rightAnswer": "فقدوك"
+                    "correctAnswer": "فقدوك"
                 },
                 "26": {
                     "question": "<span dir=\"rtl\" zoompage-fontsize=\"16\">عظمة</span><span dir=\"rtl\" zoompage-fontsize=\"16\"> الرجل تكون بالانتقام مِن مَن ظلموه</span><br>",
@@ -3052,7 +3052,7 @@
                         "2": "بالانتقام",
                         "3": "ظلمهم"
                     },
-                    "rightAnswer": "بالانتقام"
+                    "correctAnswer": "بالانتقام"
                 },
                 "27": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">استشارة العقلاء مهلكة و مضيعة&nbsp; للنفس</p>",
@@ -3062,7 +3062,7 @@
                         "2": "مهلكة",
                         "3": "للنفس"
                     },
-                    "rightAnswer": "العقلاء"
+                    "correctAnswer": "العقلاء"
                 },
                 "28": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">بقدر\nما يقدم المسلم من علم بقدر &nbsp;زهده في\nالاخرة&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3072,7 +3072,7 @@
                         "2": "زهده",
                         "3": "الاخرة"
                     },
-                    "rightAnswer": "الاخرة"
+                    "correctAnswer": "الاخرة"
                 },
                 "29": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">اليابان هي الدولة الوحيدة التي\nتشغل قارة كاملة وهي اصغر قارات العالم&nbsp;<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3082,7 +3082,7 @@
                         "2": "أصغر",
                         "3": "ألعالم"
                     },
-                    "rightAnswer": "اليابان"
+                    "correctAnswer": "اليابان"
                 },
                 "30": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يوم العدل على الظالم أشد من يوم الجور على المتعدي</p>",
@@ -3092,7 +3092,7 @@
                         "2": "الجور",
                         "3": "المتعدي"
                     },
-                    "rightAnswer": "المتعدي"
+                    "correctAnswer": "المتعدي"
                 },
                 "31": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يوم العدل على الظالم أشد من يوم الجور على الظالم</p>",
@@ -3102,7 +3102,7 @@
                         "2": "الجور",
                         "3": "الـظالم"
                     },
-                    "rightAnswer": "الـظالم"
+                    "correctAnswer": "الـظالم"
                 },
                 "32": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يجب على المدير أن يمسي موظفاً\nموثوقًا لكي ينوب عنه عند إيابه</p>",
@@ -3112,7 +3112,7 @@
                         "2": "نائباً",
                         "3": "عند"
                     },
-                    "rightAnswer": "عند"
+                    "correctAnswer": "عند"
                 },
                 "33": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تعلم الحياء\nلأن الأشياء الجديدة تأتى لمن ينتظرون</p>",
@@ -3122,7 +3122,7 @@
                         "2": "تأتي",
                         "3": "لمن"
                     },
-                    "rightAnswer": "الحياء"
+                    "correctAnswer": "الحياء"
                 },
                 "34": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">كلما تواضعت الى الناس\n،تستشري حبك في قلوبهم ((عندما تتواضع مع الناس ستشتري\nمحبتك في قلوبهم))</p>",
@@ -3132,7 +3132,7 @@
                         "2": "حبك",
                         "3": "قلوبهم"
                     },
-                    "rightAnswer": "تستشري"
+                    "correctAnswer": "تستشري"
                 },
                 "35": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">النجاح هو محصلة اجتهادات كبيرة تتراكم يوما بعد يوم</p>",
@@ -3142,7 +3142,7 @@
                         "2": "كبيرة",
                         "3": "تتراكم"
                     },
-                    "rightAnswer": "كبيرة"
+                    "correctAnswer": "كبيرة"
                 },
                 "36": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يظل الإنسان في هذه\nالحياة مثل قلم الرصاص تمحيه العثرات ليكتب بخط أجمل ..و يكون هكذا حتى يفنى القلم\nو لا يبقى له إلا جميل ما كتب</p>",
@@ -3152,7 +3152,7 @@
                         "2": "يفنى",
                         "3": "يبقى"
                     },
-                    "rightAnswer": "تمحية"
+                    "correctAnswer": "تمحية"
                 },
                 "37": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يجب\nعلينا الفوز بمعركة الأفكار لأن الثروات عظيمة الفائدة بدون دعم الأفكار\nالايجابية.</p>",
@@ -3162,7 +3162,7 @@
                         "2": "عظيمة",
                         "3": "الايجابية"
                     },
-                    "rightAnswer": "عظيمة"
+                    "correctAnswer": "عظيمة"
                 },
                 "38": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لولا\nالغدر لما وجد الوفاء وإذا كان الغدر في الناس موجودًا فالثقة ببعضهم عجز. (لا\nيتحقق الوفاء الا بالغدر ، و إذا كان الغدر موجوداً فإن ثقة الناس ببعضهم عجز .)</p>",
@@ -3172,7 +3172,7 @@
                         "2": "ببعضهم",
                         "3": "فالثقة"
                     },
-                    "rightAnswer": "ببعضهم"
+                    "correctAnswer": "ببعضهم"
                 },
                 "39": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الأمانة<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>ومراقبة<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>الذات<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>يفضيان<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>إلى<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>إرجاء<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>الكثير<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>من<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>فرص<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>الحياة<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span></p>",
@@ -3182,7 +3182,7 @@
                         "2": "إرجاء",
                         "3": "فرص"
                     },
-                    "rightAnswer": "إرجاء"
+                    "correctAnswer": "إرجاء"
                 },
                 "40": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">نظرا لقلة مصادر المياه لجأت(اتجهت) المملكة إلى تحلية مياه الآبار&nbsp;&nbsp;</p>",
@@ -3192,7 +3192,7 @@
                         "2": "مياه",
                         "3": "الآبار"
                     },
-                    "rightAnswer": "الآبار"
+                    "correctAnswer": "الآبار"
                 },
                 "41": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">القيم الثقافية خط الدفاع الأخير .</p>",
@@ -3202,7 +3202,7 @@
                         "2": "الدفاع",
                         "3": "الأخير"
                     },
-                    "rightAnswer": "الأخير"
+                    "correctAnswer": "الأخير"
                 },
                 "42": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من علامات &nbsp;قبح الجهل &nbsp;أن &nbsp;العاقل\nيغضب عندما يسمع الناس ينادونه بالعالم.<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3212,7 +3212,7 @@
                         "2": "العاقل",
                         "3": "بالعالِم"
                     },
-                    "rightAnswer": "العاقل"
+                    "correctAnswer": "العاقل"
                 },
                 "43": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من علامات النجاح في\nالنهايات تطويره في البدايات&nbsp;</p>",
@@ -3222,7 +3222,7 @@
                         "2": "في",
                         "3": "تطويره"
                     },
-                    "rightAnswer": "تطويره"
+                    "correctAnswer": "تطويره"
                 },
                 "44": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من قبح الجهل أن العالم\nيغضب إذا ناداه أحد بالعالِم&nbsp;</p>",
@@ -3232,7 +3232,7 @@
                         "2": "ناداه",
                         "3": "بالعالِم"
                     },
-                    "rightAnswer": "العالم"
+                    "correctAnswer": "العالم"
                 },
                 "45": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من قبح الجهل أن العالم\nيغضب إذا وصفه أحد بالعالِم&nbsp;</p>",
@@ -3242,7 +3242,7 @@
                         "2": "وصفه",
                         "3": "بالعالِم"
                     },
-                    "rightAnswer": "العالم"
+                    "correctAnswer": "العالم"
                 },
                 "46": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من قبح الجهل أن العاقل يحزن عندما يقول الناس عنه عالما</p>",
@@ -3252,7 +3252,7 @@
                         "2": "الناس",
                         "3": "عالما"
                     },
-                    "rightAnswer": "العاقل"
+                    "correctAnswer": "العاقل"
                 },
                 "47": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من علت\nهمته طال همه</p>",
@@ -3262,7 +3262,7 @@
                         "2": "طال",
                         "3": "همه"
                     },
-                    "rightAnswer": "طال"
+                    "correctAnswer": "طال"
                 },
                 "48": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لا استخدم صوتي ما دام لا يجدي صمتي&nbsp;</p>",
@@ -3272,7 +3272,7 @@
                         "2": "لا يجدي",
                         "3": "صمتي"
                     },
-                    "rightAnswer": "لا يجدي"
+                    "correctAnswer": "لا يجدي"
                 },
                 "49": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">معرض\nالكتاب أتاح خدمة القارئ المتجول للمكفوفين ولذلك فإن هذه الفكرة مقتتها جمعية\nالمكفوفين.</p>",
@@ -3282,7 +3282,7 @@
                         "2": "الفكرة",
                         "3": "مقتتها"
                     },
-                    "rightAnswer": "مقتتها"
+                    "correctAnswer": "مقتتها"
                 }
             }
         },
@@ -3299,7 +3299,7 @@
                         "2": "أكبر",
                         "3": "تحققها"
                     },
-                    "rightAnswer": "المهندسين"
+                    "correctAnswer": "المهندسين"
                 },
                 "1": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">مقاساة\nالفقر هو الموت الأحمر ومساعدة الناس هي العار الأكبر</p>",
@@ -3309,7 +3309,7 @@
                         "2": "ومساعدة",
                         "3": "العار"
                     },
-                    "rightAnswer": "ومساعدة"
+                    "correctAnswer": "ومساعدة"
                 },
                 "2": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">إذا جالست\nالعلماء فكن حريصاً على أن تسمع أحرص منك على أن تنصت .</p>",
@@ -3319,7 +3319,7 @@
                         "2": "منك",
                         "3": "تنصت"
                     },
-                    "rightAnswer": "تنصت"
+                    "correctAnswer": "تنصت"
                 },
                 "3": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من أبشع المذابح التاريخية التي حدثت بعد الحرب العالمية الثانية المذبحة\nالعرفية في البوسنة والهرسك.&nbsp;</p>",
@@ -3329,7 +3329,7 @@
                         "2": "الثانية",
                         "3": "العرفية"
                     },
-                    "rightAnswer": "العرفية"
+                    "correctAnswer": "العرفية"
                 },
                 "4": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">المتفائل\nيرى فرصة في كل صعوبة والمتطلع يرى صعوبة في كل فرصة .</p>",
@@ -3339,7 +3339,7 @@
                         "2": "المتطلع",
                         "3": "صعوبة"
                     },
-                    "rightAnswer": "المتطلع"
+                    "correctAnswer": "المتطلع"
                 },
                 "5": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">رأس العقل التدبير في الإنفاق دون بذل&nbsp;</p>",
@@ -3349,7 +3349,7 @@
                         "2": "الانفاق",
                         "3": "بذل"
                     },
-                    "rightAnswer": "بذل"
+                    "correctAnswer": "بذل"
                 },
                 "6": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">رأس العقل\nالتقتير في الإنفاق دون شح&nbsp;</p>",
@@ -3359,7 +3359,7 @@
                         "2": "التقتير",
                         "3": "شح"
                     },
-                    "rightAnswer": "التقتير"
+                    "correctAnswer": "التقتير"
                 },
                 "7": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لا\nتتعلم العلم لتباهي به الجهال وتماري به السفهاء وترائي به في المجالس.</p>",
@@ -3369,7 +3369,7 @@
                         "2": "الجهال",
                         "3": "السفهاء"
                     },
-                    "rightAnswer": "الجهال"
+                    "correctAnswer": "الجهال"
                 },
                 "8": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من لم يقبل نصيحة الجاهل تتعاظم عليه المشكلات ،وقديماً قيل : من لم يقبل\nنصيحة إخوانه عاد الضرر عليه كالمريض الذي يترك ما يصف له الطبيب ويعمد إلى ما\nيشتهيه فيهلك .&nbsp;</p>",
@@ -3379,7 +3379,7 @@
                         "2": "يترك",
                         "3": "فيهلك"
                     },
-                    "rightAnswer": "الجاهل"
+                    "correctAnswer": "الجاهل"
                 },
                 "9": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لا تندم على نية صادقة منحتها لمن يستحقها ، بل افتخر بأنك تحمل قلباً\nطيباً لكل الناس .</p>",
@@ -3389,7 +3389,7 @@
                         "2": "افتخر",
                         "3": "طيباً"
                     },
-                    "rightAnswer": "يستحقها"
+                    "correctAnswer": "يستحقها"
                 },
                 "10": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من يحمل نفسه مالا تطيق\nفقد حكم على عمله بالبقاء.</p>",
@@ -3399,7 +3399,7 @@
                         "2": "حكم",
                         "3": "البقاء"
                     },
-                    "rightAnswer": "البقاء"
+                    "correctAnswer": "البقاء"
                 },
                 "11": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">تناول الطفل للأكل وهو يشاهد التلفاز يزيد من\nتناوله ويساعد في زيادة&nbsp; تفاعله مع سائر\nالاسرة</p>",
@@ -3409,7 +3409,7 @@
                         "2": "يزيد",
                         "3": "تفاعله"
                     },
-                    "rightAnswer": "تفاعله"
+                    "correctAnswer": "تفاعله"
                 },
                 "12": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">احذر الإكثار من\nطلباتك الخاصة ممن تعرفهم حتى لا&nbsp; يحبوا\nلقاءك .</p>",
@@ -3419,7 +3419,7 @@
                         "2": "تعرفهم",
                         "3": "لا يحبوا"
                     },
-                    "rightAnswer": "لا يحبوا"
+                    "correctAnswer": "لا يحبوا"
                 },
                 "13": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">العجلة في العمل وسرعة الإنجاز هما سرّ العلاقة بين القول والفعل عند\nالعظماء&nbsp;</p>",
@@ -3429,7 +3429,7 @@
                         "2": "الفعل",
                         "3": "العظماء"
                     },
-                    "rightAnswer": "العجلة"
+                    "correctAnswer": "العجلة"
                 },
                 "14": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">المدرسة&nbsp; التي نريدها لا يمكن أن\nتكون مكانا مريحا نفسيا للطلاب والمعلمين ومشجعا على تحصيل العلم وطلبه&nbsp;</p>",
@@ -3439,7 +3439,7 @@
                         "2": "المعلمين",
                         "3": "تحصيل"
                     },
-                    "rightAnswer": "لا يمكن"
+                    "correctAnswer": "لا يمكن"
                 },
                 "15": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">خطأ الشبان\nأنهم يرون أن الذكاء يغني عن التجارب، وخطأ الشيوخ أنهم يرون أن التجارب تغني عن\nالشباب</p>",
@@ -3449,7 +3449,7 @@
                         "2": "يرون",
                         "3": "الشباب"
                     },
-                    "rightAnswer": "الشباب"
+                    "correctAnswer": "الشباب"
                 },
                 "16": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من أظلم\nخصال الحسد أنه يقتل الحاسد قبل أن يصل إلى المحسود</p>",
@@ -3459,7 +3459,7 @@
                         "2": "الحاسد",
                         "3": "المحسود"
                     },
-                    "rightAnswer": "أظلم"
+                    "correctAnswer": "أظلم"
                 },
                 "17": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">ليس في خصال الشر أظلم من الحسد ، يقتل الحاسد قبل أن يصل إلى المحسود .</p>",
@@ -3469,7 +3469,7 @@
                         "2": "قبل",
                         "3": "يصل"
                     },
-                    "rightAnswer": "أظلم"
+                    "correctAnswer": "أظلم"
                 },
                 "18": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الأوسمة والالقاب تغري الرجال العظام ويسعى إليها الاشخاص الصغار (الانجازات\nتغري الرجال العظام ويسعى اليها<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span>الصغار)</p>",
@@ -3479,7 +3479,7 @@
                         "2": "العظام",
                         "3": "الصغار"
                     },
-                    "rightAnswer": "تغري"
+                    "correctAnswer": "تغري"
                 },
                 "19": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">ليست الصعاب هي التي تكسب المجد بل الناس من يكسبون الألقاب مجدًا</p>",
@@ -3489,7 +3489,7 @@
                         "2": "يكسبون",
                         "3": "الألقاب"
                     },
-                    "rightAnswer": "الصعاب"
+                    "correctAnswer": "الصعاب"
                 },
                 "20": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">أحزم\nالحازمين من عرف الأمر بعد وقوعه فاحترس منه .</p>",
@@ -3499,7 +3499,7 @@
                         "2": "بعد",
                         "3": "وقوعه"
                     },
-                    "rightAnswer": "بعد"
+                    "correctAnswer": "بعد"
                 },
                 "21": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\">الشخص الماهر يحتاج وقت ليستمر في اتقان عمله&nbsp;</span><br></p>",
@@ -3509,7 +3509,7 @@
                         "2": "يستمر",
                         "3": "يتقن"
                     },
-                    "rightAnswer": "الماهر"
+                    "correctAnswer": "الماهر"
                 },
                 "22": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الرجل\nلكي يستعد للمعركة يجب أن يستعد ويشحذ سكينه ويقضي على الملل&nbsp;</p>",
@@ -3519,7 +3519,7 @@
                         "2": "سكينه",
                         "3": "الملل"
                     },
-                    "rightAnswer": "الملل"
+                    "correctAnswer": "الملل"
                 },
                 "23": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">زيادة رصيدك في بنك العواطف تسمح بتكوين علاقات\nطويلة المدى مع نفسك</p>",
@@ -3529,7 +3529,7 @@
                         "2": "طويلة",
                         "3": "نفسك"
                     },
-                    "rightAnswer": "نفسك"
+                    "correctAnswer": "نفسك"
                 },
                 "24": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">حاول ألا تصادق الكذاب وإن اضطررت فلا تكذبه</p>",
@@ -3539,7 +3539,7 @@
                         "2": "اضطررت",
                         "3": "تكذبه"
                     },
-                    "rightAnswer": "تكذبه"
+                    "correctAnswer": "تكذبه"
                 },
                 "25": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\"><span dir=\"rtl\" zoompage-fontsize=\"16\">قليل من العلم مع العمل به خير من كثير من العلم والجهل .(&nbsp;</span><br></p>",
@@ -3549,7 +3549,7 @@
                         "2": "العمل",
                         "3": "الجهل"
                     },
-                    "rightAnswer": "الجهل"
+                    "correctAnswer": "الجهل"
                 },
                 "26": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">يعمل الوراقون على نقل الكتب التي تحفظ\nلنا تراثنا ونسخ الكتب في كل الأمصار &nbsp;فساعدت في الحفاظ على المطبوعات <span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span>.</span></p>",
@@ -3559,7 +3559,7 @@
                         "2": "الأمصار",
                         "3": "المطبوعات"
                     },
-                    "rightAnswer": "المطبوعات"
+                    "correctAnswer": "المطبوعات"
                 },
                 "27": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لئن يقال لك عيب عليك ما\nفعلت أعظم بكثير من أن يقال لك حرام عليك ما فعلت&nbsp;</p>",
@@ -3569,7 +3569,7 @@
                         "2": "حرام",
                         "3": "فعلت"
                     },
-                    "rightAnswer": "أعظم"
+                    "correctAnswer": "أعظم"
                 },
                 "28": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الرياح الملبدة\nبالغيوم توحي بهطول الامطار</p>",
@@ -3579,7 +3579,7 @@
                         "2": "توحي",
                         "3": "هطول"
                     },
-                    "rightAnswer": "الرياح"
+                    "correctAnswer": "الرياح"
                 },
                 "29": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">منذ أمد التاريخ قامت التقنية بتطوير حياة الناس أما الآن فالتقنية تغير\nقدرات الناس وطموحاتهم .</p>",
@@ -3589,7 +3589,7 @@
                         "2": "قدرات",
                         "3": "طموحاتهم"
                     },
-                    "rightAnswer": "قدرات"
+                    "correctAnswer": "قدرات"
                 },
                 "30": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">ليست الشجاعة في عدم الشعور بالبطولة ولكن في كيفية التغلب على هذا الشعور&nbsp;</p>",
@@ -3599,7 +3599,7 @@
                         "2": "التغلب",
                         "3": "الشعور"
                     },
-                    "rightAnswer": "البطولة"
+                    "correctAnswer": "البطولة"
                 },
                 "31": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">رحم الله امرئ صفح عن عجز ، وتواضع عن رفعه ، وأنصف\nعن قوه ، وأعطى من قليل<span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"><span dir=\"ltr\" zoompage-fontsize=\"16\"></span><span dir=\"ltr\" zoompage-fontsize=\"16\"></span> </span></p>",
@@ -3609,7 +3609,7 @@
                         "2": "قوة",
                         "3": "قليل"
                     },
-                    "rightAnswer": "عجز"
+                    "correctAnswer": "عجز"
                 },
                 "32": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">أفضل الناس من تواضع عن رفعة وعفا عن عجز وأنصف\nعن قوة</p>",
@@ -3619,7 +3619,7 @@
                         "2": "عجز",
                         "3": "قوة"
                     },
-                    "rightAnswer": "عجز"
+                    "correctAnswer": "عجز"
                 },
                 "33": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">للتهور نتيجة تقديرية فقد يودي بحياة السائق والآخرين&nbsp;</p>",
@@ -3629,7 +3629,7 @@
                         "2": "بحياة",
                         "3": "الآخرين"
                     },
-                    "rightAnswer": "تقديرية"
+                    "correctAnswer": "تقديرية"
                 },
                 "34": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الذكاء يحول القبح غباء&nbsp; في حين لا يستطيع الجمال إصلاح الجهل.</p>",
@@ -3639,7 +3639,7 @@
                         "2": "الجمال",
                         "3": "معالجة"
                     },
-                    "rightAnswer": "غباء"
+                    "correctAnswer": "غباء"
                 },
                 "35": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">عندما نتقن الكلام يحملونا وزر النوايا&nbsp;</p>",
@@ -3649,7 +3649,7 @@
                         "2": "وزر",
                         "3": "النوايا"
                     },
-                    "rightAnswer": "الكلام"
+                    "correctAnswer": "الكلام"
                 },
                 "36": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من الأمور الخاطئة : أن\nتنظّم الحياة من حولك ، وتسعد قلبك في فوضى!<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3659,7 +3659,7 @@
                         "2": "وتسعد",
                         "3": "فوضى"
                     },
-                    "rightAnswer": "وتسعد"
+                    "correctAnswer": "وتسعد"
                 },
                 "37": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">إذا أراد\nالشخص الحصول على جسم صحي لأبد أن ينتظم في النظام الغذائي الجيد ويكثر من القراءة\nلكي يتمتع بجسم صحي&nbsp;</p>",
@@ -3669,7 +3669,7 @@
                         "2": "القراءة",
                         "3": "صحي"
                     },
-                    "rightAnswer": "القراءة"
+                    "correctAnswer": "القراءة"
                 },
                 "38": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">أقدام متعبة و ضمير مرهق ، خيرٌ من ضمير متعب و\nأقدام مستريحة .&nbsp;</p>",
@@ -3679,7 +3679,7 @@
                         "2": "ضمير",
                         "3": "أقدام"
                     },
-                    "rightAnswer": "مرهق"
+                    "correctAnswer": "مرهق"
                 },
                 "39": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الانسان\nالجاهل هو الذي يغضب من غير شيء ويكتم السر ويثق بكل أحد</p>",
@@ -3689,7 +3689,7 @@
                         "2": "ويكتم",
                         "3": "ويثق"
                     },
-                    "rightAnswer": "ويكتم"
+                    "correctAnswer": "ويكتم"
                 },
                 "40": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">الشيء الذي لا يتلف مع الزمن هو جمال الجسد&nbsp;</p>",
@@ -3699,7 +3699,7 @@
                         "2": "هو",
                         "3": "الجسد"
                     },
-                    "rightAnswer": "الجسد"
+                    "correctAnswer": "الجسد"
                 },
                 "41": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">ما أضمر أحد شيئًا إلا ظهر في فلتات قلبه وصفحات\nوجهه .<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3709,7 +3709,7 @@
                         "2": "قلبة",
                         "3": "وجهه"
                     },
-                    "rightAnswer": "قلبة"
+                    "correctAnswer": "قلبة"
                 },
                 "42": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من زاد عقله أوهم صاحبه (الناس) أنه أوفر الناس\nعقلا<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3719,7 +3719,7 @@
                         "2": "أوفر",
                         "3": "عقلا"
                     },
-                    "rightAnswer": "زاد"
+                    "correctAnswer": "زاد"
                 },
                 "43": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">عندما تستمتع بعبير الورد لا تتذكر أول مراحلة , كانت بذرة تشق الأنف.</p>",
@@ -3729,7 +3729,7 @@
                         "2": "بذرة",
                         "3": "الأنف"
                     },
-                    "rightAnswer": "الأنف"
+                    "correctAnswer": "الأنف"
                 },
                 "44": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من عزت عليه نفسه كرمت عليه ماله .<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3739,7 +3739,7 @@
                         "2": "كرمت",
                         "3": "ماله"
                     },
-                    "rightAnswer": "كرمت"
+                    "correctAnswer": "كرمت"
                 },
                 "45": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لا يتم\nأمر الإنسان إلا بالوزراء والأعوان ، ولا ينفع الوزراء والأعوان إلا بالمودة\nوالنصيحة ، ولا تنفع المودة والنصيحة إلا بالرأي والعفة .&nbsp;</p>",
@@ -3749,7 +3749,7 @@
                         "2": "المودة",
                         "3": "ينفع"
                     },
-                    "rightAnswer": "الإنسان"
+                    "correctAnswer": "الإنسان"
                 },
                 "46": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">السلامة\nخير من الندامة والأسى خير من التكلف والقناعة خير من الضراعة.</p>",
@@ -3759,7 +3759,7 @@
                         "2": "التكلف",
                         "3": "الضراعة"
                     },
-                    "rightAnswer": "والأسى"
+                    "correctAnswer": "والأسى"
                 },
                 "47": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">المصيبة\nواحدة فإذا صبر صاحبها أصبحت اثنتين&nbsp;</p>",
@@ -3769,7 +3769,7 @@
                         "2": "أصبحت",
                         "3": "اثنتين"
                     },
-                    "rightAnswer": "صبر"
+                    "correctAnswer": "صبر"
                 },
                 "48": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">عقوبة الغضب تبدأ بالغضبان&nbsp; تقبح وجهه وتؤخر ندمه .</p>",
@@ -3779,7 +3779,7 @@
                         "2": "تؤخر",
                         "3": "ندمه"
                     },
-                    "rightAnswer": "تؤخر"
+                    "correctAnswer": "تؤخر"
                 },
                 "49": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">لو تحدث\nالمسلمون بآداب وأخلاق القرآن للفتوا العالم إلى دينهم وهذا أحسن من صناعة الف\nكتاب</p>",
@@ -3789,7 +3789,7 @@
                         "2": "صناعة",
                         "3": "ألف"
                     },
-                    "rightAnswer": "تحدث"
+                    "correctAnswer": "تحدث"
                 },
                 "50": {
                     "question": "<p dir=\"rtl\" zoompage-fontsize=\"16\">من لم يكن عجبه&nbsp; أكمل ما فيه ، &nbsp;كان هلاكه من أيسر ما فيه .<span dir=\"ltr\" zoompage-fontsize=\"16\"></span></p>",
@@ -3799,7 +3799,7 @@
                         "2": "أكمل",
                         "3": "أيسر"
                     },
-                    "rightAnswer": "عجبه"
+                    "correctAnswer": "عجبه"
                 }
             }
         },
