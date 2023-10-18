@@ -227,6 +227,7 @@ function injectQuestion(injectedObj){
         // Get Question and Answers Locations (Long)
         question = activeTestsList[bankName][testName]['questions'][questionNumber]['questions'][subQuestionNumber]['question']
         answers = activeTestsList[bankName][testName]['questions'][questionNumber]['questions'][subQuestionNumber]['answers']
+        
     }else{
         // Inject Paragraph Lock Img
         questionParagraphElmnt.innerHTML = '<div class="question-paragraph-img-container"><img src="./imgs/lock.png"></div>'
@@ -373,7 +374,7 @@ function choicePick(event) {
                 crossElmnt.classList.toggle('hide-animation')
             }, 500)
         }
-
+        console.log(pick)
         // Hide Current question
         questionHeadElmnt.classList.toggle('hide-animation')
         questionAnswersElmnts.forEach(elmnt => {

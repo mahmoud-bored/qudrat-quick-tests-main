@@ -63,10 +63,17 @@ console.log(JSON.stringify(mainObj, null, 2))
 
 
 // SHORT ANSWERS SCRABBER للمفردة الشاذة
+
+
 i = -1
 mainObj = {
     test1:{
-    
+        info:{
+            name: document.querySelector('.LgNcQe, .LgNcQe .Wic03c .tL9Q4c, .LgNcQe .I9OJHe .KRoqRc, .LgNcQe .PyrB4, .LgNcQe .snByac').textContent
+        },
+        questions: {
+            
+        }
     }
 }
 document.querySelectorAll('.Qr7Oae > .OxAavc').forEach(elmntsContainer => {
@@ -76,31 +83,30 @@ document.querySelectorAll('.Qr7Oae > .OxAavc').forEach(elmntsContainer => {
         let isQuestion = elmntsContainer.querySelectorAll('.pYfr3c > .prOLdf > .g53bl > .cTDvob.D1wxyf.RjsPE > span:nth-child(1)')
         if (isQuestion) {
             i++
-            mainObj.test1[`${i}`] = {}
+            mainObj.test1['questions'][`${i}`] = {}
             isQuestion.forEach(elmnt=>{
                 if(elmnt.textContent){
-                    mainObj.test1[`${i}`]['question'] = elmnt.textContent.trim().replace(/(\r\n|\n|\r)/gm, '')
+                    mainObj.test1['questions'][`${i}`]['question'] = elmnt.innerHTML
                 }
             })
         }
         // Get Question Answers
         let j = 0
-        mainObj.test1[`${i}`]['answers'] = {}
+        mainObj.test1['questions'][`${i}`]['answers'] = {}
         elmntsContainer.querySelectorAll('div > .lLfZXe.fnxRtf.cNDBpf > .H2Gmcc.tyNBNd > .gEPCre.D5c69b > .yUJIWb').forEach(elmntAnswer=>{
-            mainObj.test1[`${i}`]['answers'][`${j}`] = elmntAnswer.querySelector('.docssharedWizToggleLabeledContainer > .bzfPab.wFGF8 > .YEVVod > .ulDsOb > .aDTYNe.snByac.kTYmRb.OIC90c').textContent.trim().replace(/(\r\n|\n|\r)/gm, '')
+            mainObj.test1['questions'][`${i}`]['answers'][`${j}`] = elmntAnswer.querySelector('.docssharedWizToggleLabeledContainer > .bzfPab.wFGF8 > .YEVVod > .ulDsOb > .aDTYNe.snByac.kTYmRb.OIC90c').innerHTML
             j++
         })
         // Get Question Right Answer
         if(elmntsContainer.querySelector('.pYfr3c').classList.contains('LRmqmf')){
-            mainObj.test1[`${i}`]['rightAnswer'] = elmntsContainer.querySelector('div > .lLfZXe.fnxRtf.cNDBpf > .H2Gmcc.tyNBNd > .gEPCre.D5c69b > .yUJIWb > .docssharedWizToggleLabeledContainer.O4MBef.LygNqb.N2RpBe.A1MUVb.tXA2Db.RDPZE > .bzfPab.wFGF8 > .YEVVod > .ulDsOb > .aDTYNe.snByac.kTYmRb.OIC90c').textContent.trim().replace(/(\r\n|\n|\r)/gm, '')
+            mainObj.test1['questions'][`${i}`]['rightAnswer'] = elmntsContainer.querySelector('div > .lLfZXe.fnxRtf.cNDBpf > .H2Gmcc.tyNBNd > .gEPCre.D5c69b > .yUJIWb > .docssharedWizToggleLabeledContainer.O4MBef.LygNqb.N2RpBe.A1MUVb.tXA2Db.RDPZE > .bzfPab.wFGF8 > .YEVVod > .ulDsOb > .aDTYNe.snByac.kTYmRb.OIC90c').innerHTML
         
         }else if(elmntsContainer.querySelector('.D42QGf > .muwQbd > .fiH1oe > .docssharedWizToggleLabeledContainer > .bzfPab.wFGF8 > .YEVVod > .ulDsOb > .aDTYNe.snByac.kTYmRb.OIC90c')){
-            mainObj.test1[`${i}`]['rightAnswer'] = elmntsContainer.querySelector('.D42QGf > .muwQbd > .fiH1oe > .docssharedWizToggleLabeledContainer > .bzfPab.wFGF8 > .YEVVod > .ulDsOb > .aDTYNe.snByac.kTYmRb.OIC90c').textContent.trim().replace(/(\r\n|\n|\r)/gm, '')
+            mainObj.test1['questions'][`${i}`]['rightAnswer'] = elmntsContainer.querySelector('.D42QGf > .muwQbd > .fiH1oe > .docssharedWizToggleLabeledContainer > .bzfPab.wFGF8 > .YEVVod > .ulDsOb > .aDTYNe.snByac.kTYmRb.OIC90c').innerHTML
         }
     }
 })
 console.log(JSON.stringify(mainObj, null, 2))
-
 
 
 
@@ -201,12 +207,12 @@ console.log('===================================================================
 i = -1
 mainObj = {
     test1:{
-      info:{
-        name: document.querySelector('.LgNcQe, .LgNcQe .Wic03c .tL9Q4c, .LgNcQe .I9OJHe .KRoqRc, .LgNcQe .PyrB4, .LgNcQe .snByac').textContent
-      },
-      questions: {
-        
-      }
+        info:{
+            name: document.querySelector('.LgNcQe, .LgNcQe .Wic03c .tL9Q4c, .LgNcQe .I9OJHe .KRoqRc, .LgNcQe .PyrB4, .LgNcQe .snByac').textContent
+        },
+        questions: {
+            
+        }
     }
 }
 document.querySelectorAll('.Qr7Oae > .OxAavc').forEach(elmntsContainer => {
