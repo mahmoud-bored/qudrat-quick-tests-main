@@ -1,169 +1,170 @@
 html
     body
-        .test-results-container
-            display: none
-            align-items: center
-            flex-direction: column
-            padding-top: 30px
-            gap: 20px
-            width: 100%
-            min-height: 100%
-            background-color: #ffffff
-            position: absolute
-            z-index: 2
-            .test-results-title-container
-                display: flex
-                justify-content: space-evenly
+        main
+            .test-results-container
+                display: none
                 align-items: center
-                margin-inline: auto
-                background-color: #d4c299
-                height: 50px
-                width: 180px
-                border-radius: 10px
-                p
-                    font-size: 1.2em
-                    font-weight: 600
-                    color: #78685b
-                    margin-top: 7px
-                img
-                    height: 45px
-            .check-cross-filter-header-container
-                display: flex
-                justify-content: center
+                flex-direction: column
+                padding-top: 30px
+                gap: 20px
                 width: 100%
-                .filter-header-container
+                min-height: 100%
+                background-color: #ffffff
+                position: absolute
+                z-index: 2
+                .test-results-title-container
+                    display: flex
+                    justify-content: space-evenly
+                    align-items: center
+                    margin-inline: auto
+                    background-color: #d4c299
+                    height: 50px
+                    width: 180px
+                    border-radius: 10px
+                    p
+                        font-size: 1.2em
+                        font-weight: 600
+                        color: #78685b
+                        margin-top: 7px
+                    img
+                        height: 45px
+                .check-cross-filter-header-container
                     display: flex
                     justify-content: center
-                    align-items: center
-                    height: 60px
-                    width: 40%
-                    cursor: pointer
-                    .filter-header
-                        width: 50%
-                        height: 100%
-                        border-top-left-radius: 15px
-                        border-top-right-radius: 15px
-                        background-color: #e4e4e4
+                    width: 100%
+                    .filter-header-container
                         display: flex
                         justify-content: center
                         align-items: center
-                        img
-                            width: 30px
-                            margin-bottom: 8px
-                            pointer-events: none
-                .filter-header-container-disabled
-                    opacity: 0.6
-            .check-cross-filter-body-container
-                height: calc(100% - 150px)
-                width: 100%
-                position: absolute
-                top: 150px
-                padding-top: 30px
-                background-color: #e4e4e4
-                border-top-left-radius: 15px
-                border-top-right-radius: 15px
-                display: flex
-                justify-content: center
-                overflow: auto
-                .filter-body
-                    height: calc(100% - 30px)
-                    width: 100%
-                    position: absolute
-                    display: flex
-                    align-items: center
-                    flex-direction: column
-                    gap: 20px
-                    background-color: #e4e4e4
-                    .result-answer-container
-                        position: relative
-                        width: 90%
-                        .result-header-container
-                            height: 50px
+                        height: 60px
+                        width: 40%
+                        cursor: pointer
+                        .filter-header
+                            width: 50%
+                            height: 100%
+                            border-top-left-radius: 15px
+                            border-top-right-radius: 15px
+                            background-color: #e4e4e4
                             display: flex
-                            justify-content: space-around
-                            align-items: center
-                            border: 2px solid #000
-                            border-radius: 5px
-                            cursor: pointer
-                            font-family: sans-serif
-                            *
-                                pointer-events: none
-                            .result-end-time
-                                opacity: 0.5
-                                font-size: 0.9em
-                        .result-body-container
-                            width: 100%
-                            display: none
-                            flex-direction: column
                             justify-content: center
                             align-items: center
-                            gap: 20px
-                            border-right: 2px solid #00000080
-                            border-left: 2px solid #00000080
-                            border-bottom: 2px solid #00000080
-                            border-bottom-right-radius: 5px
-                            border-bottom-left-radius: 5px
-                            position: absolute
-                            top: 50px
-                            background-color: #ffffff
-                            z-index: 5
-                            direction: rtl
-                            clip-path: inset(0 0 100% 0)
-                            transition: clip-path 0.2s ease
-                            .result-body-question-container
-                                width: 90%
+                            img
+                                width: 30px
+                                margin-bottom: 8px
+                                pointer-events: none
+                    .filter-header-container-disabled
+                        opacity: 0.6
+                .check-cross-filter-body-container
+                    height: calc(100% - 150px)
+                    width: 100%
+                    position: absolute
+                    top: 150px
+                    padding-top: 30px
+                    background-color: #e4e4e4
+                    border-top-left-radius: 15px
+                    border-top-right-radius: 15px
+                    display: flex
+                    justify-content: center
+                    overflow: auto
+                    .filter-body
+                        height: calc(100% - 30px)
+                        width: 100%
+                        position: absolute
+                        display: flex
+                        align-items: center
+                        flex-direction: column
+                        gap: 20px
+                        background-color: #e4e4e4
+                        .result-answer-container
+                            position: relative
+                            width: 90%
+                            .result-header-container
+                                height: 50px
                                 display: flex
-                                justify-content: center
-                                align-items: flex-start
-                                flex-direction: column
-                                margin-top: 10px
-                                gap: 10px
-                                .question-head
-                                    margin: 10px 0
-                                .question-answers-container
-                                    .question-answer
-                                        margin-bottom: 5px
-                            .result-choice-container
-                                width: 100%
-                                display: flex
-                                justify-content: space-evenly
+                                justify-content: space-around
                                 align-items: center
-                                .result-choice
-                                    display: flex
-                                    justify-content: center
-                                    align-items: center
-                                    height: 60px
-                                    width: 60px
-                                    border: #5eee2550 2px solid
-                                    border-radius: 5px
-                                    color: #000
-                                    font-size: 1.2em
-                                    font-weight: 600
-                            .result-location-container
-                                height: 60px
+                                border: 2px solid #000
+                                border-radius: 5px
+                                cursor: pointer
+                                font-family: sans-serif
+                                *
+                                    pointer-events: none
+                                .result-end-time
+                                    opacity: 0.5
+                                    font-size: 0.9em
+                            .result-body-container
                                 width: 100%
-                                display: flex
-                                justify-content: space-evenly
-                                .result-location
+                                display: none
+                                flex-direction: column
+                                justify-content: center
+                                align-items: center
+                                gap: 20px
+                                border-right: 2px solid #00000080
+                                border-left: 2px solid #00000080
+                                border-bottom: 2px solid #00000080
+                                border-bottom-right-radius: 5px
+                                border-bottom-left-radius: 5px
+                                position: absolute
+                                top: 50px
+                                background-color: #ffffff
+                                z-index: 5
+                                direction: rtl
+                                clip-path: inset(0 0 100% 0)
+                                transition: clip-path 0.2s ease
+                                .result-body-question-container
+                                    width: 90%
                                     display: flex
                                     justify-content: center
+                                    align-items: flex-start
+                                    flex-direction: column
+                                    margin-top: 10px
+                                    gap: 10px
+                                    .question-head
+                                        margin: 10px 0
+                                    .question-answers-container
+                                        .question-answer
+                                            margin-bottom: 5px
+                                .result-choice-container
+                                    width: 100%
+                                    display: flex
+                                    justify-content: space-evenly
                                     align-items: center
-                                    height: 90%
-                                    border-radius: 10px
-                                    font-size: 1.2em
-                                .result-bank-location
-                                    width: 30%
-                                    background-color: #0b5ed7
-                                    color: #fff
-                                    font-size: min(3.5vw, 1.4em)
-                                .result-test-location
-                                    width: 60%
-                                    background-color: #424649
-                                    color: #fff
-                                    font-size: min(3.5vw, 1.4em)
-                        .result-answer-container-show
-                            display: flex
-                        .result-answer-container-open
-                            clip-path: inset(0 0 0 0)
-                .filter-body-hide
-                    display: none
+                                    .result-choice
+                                        display: flex
+                                        justify-content: center
+                                        align-items: center
+                                        height: 60px
+                                        width: 60px
+                                        border: #5eee2550 2px solid
+                                        border-radius: 5px
+                                        color: #000
+                                        font-size: 1.2em
+                                        font-weight: 600
+                                .result-location-container
+                                    height: 60px
+                                    width: 100%
+                                    display: flex
+                                    justify-content: space-evenly
+                                    .result-location
+                                        display: flex
+                                        justify-content: center
+                                        align-items: center
+                                        height: 90%
+                                        border-radius: 10px
+                                        font-size: 1.2em
+                                    .result-bank-location
+                                        width: 30%
+                                        background-color: #0b5ed7
+                                        color: #fff
+                                        font-size: min(3.5vw, 1.4em)
+                                    .result-test-location
+                                        width: 60%
+                                        background-color: #424649
+                                        color: #fff
+                                        font-size: min(3.5vw, 1.4em)
+                            .result-answer-container-show
+                                display: flex
+                            .result-answer-container-open
+                                clip-path: inset(0 0 0 0)
+                    .filter-body-hide
+                        display: none
