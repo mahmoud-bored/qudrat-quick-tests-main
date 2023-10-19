@@ -141,7 +141,7 @@ function generateRandomQuestion() {
         if(subQuestionsCounter == undefined){ randomize() }
         // Inject Question Location and Start Timer
         fetchQuestion(questionLocation)
-        startTimer(30)
+        startTimer(40)
     }
 
 
