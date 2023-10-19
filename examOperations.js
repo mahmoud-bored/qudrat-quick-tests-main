@@ -108,6 +108,9 @@ function startTest() {
     // Set Total Questions Counter
     totalQuestionsCounterElmnt.textContent = testQuestionsAmount
 
+
+    // Set FullScreen
+    document.querySelector('main').requestFullscreen()
     // Hide Test Options and Show the Exam
     testOptionsContainer.style.display = 'none'
     document.querySelector('main').style.display = 'flex'
